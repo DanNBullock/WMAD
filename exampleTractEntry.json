@@ -1,0 +1,18 @@
+{
+	"tractDepiction" [
+		"tractTermsUsed": [
+			{"term": "posterior arcuate"},
+			{"term": "pArc"}
+		],
+    		"descriptions": [
+			{"desc": "https://link.springer.com/article/10.1007/s00429-019-01907-8#:~:text=The%20posterior%20arcuate%20(pArc%3B%20Fig,Supplementary%20Fig.%C2%A03%20region%2016)."},
+			{"desc": "https://link.springer.com/article/10.1007/s00429-019-01907-8#:~:text=The%20TP-SPL%20is%20found,Supplementary%20Figs.%C2%A06%20and%208)."}
+		],
+    		"figures": [
+			{"figure": "https://link.springer.com/article/10.1007/s00429-019-01907-8/figures/6"},
+			{"figure": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig6_HTML.png"},
+			{"figure": "https://link.springer.com/article/10.1007/s00429-019-01907-8/figures/10"},
+			{"figure": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig10_HTML.png"},
+		]
+	]
+}

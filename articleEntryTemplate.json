@@ -1,0 +1,22 @@
+{
+	"document" [
+		"title": "ArticleTitle",
+    		"journal": "JournalName",
+		"year": 2000,
+		"authors": [
+			{"author": "author1Name"},
+			{"author": "author2Name"}
+		],
+		"doi": "doiNumber",
+		"species": [
+			{"modelSpecies": "human"},
+			{"modelSpecies": "macaque"}
+		]
+		"methods": [
+			{"method": "tractography"},
+			{"method": "tracing"},
+			{"method": "dissection"}
+
+
+	]
+}
