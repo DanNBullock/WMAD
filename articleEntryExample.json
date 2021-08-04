@@ -1,17 +1,28 @@
 {
 	"document" [
-		"title": "ArticleTitle",
-    		"journal": "JournalName",
-		"year": 2000,
+		"title": "Associative white matter connecting the dorsal and ventral posterior human cortex",
+    		"journal": "Brain Structure and Function",
+		"year": 2019,
 		"authors": [
-			{"author": "author1Name"}
-			{"author": "author2Name"}
+			{"author": "Daniel Bullock"},
+			{"author": "Hiromasa Takemura"},
+			{"author": "Cesar F. Caiafa"},
+			{"author": "Lindsey Kitchell"},
+			{"author": "Brent McPherson"},
+			{"author": "Bradley Caron"},
+			{"author": "Franco Pestilli"},
+
 		],
-		"doi": "doiNumber",
+		"doi": 10.1007/s00429-019-01907-8,
 		"species": [
 			{"modelSpecies": "human"}
-			{"modelSpecies": "human"}
-]
-
+		]
+		"methods": [
+			{"method": "tractography"}
+		]
+		"tractDepictions" [
+			{"tractDepiction": "see_pArc_exampleJSON"},
+			{"tractDepiction": "see_pArc_exampleJson"},
+			{"tractDepiction": "see_pArc_exampleJson"}
 	]
 }

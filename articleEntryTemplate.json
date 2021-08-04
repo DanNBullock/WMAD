@@ -16,7 +16,9 @@
 			{"method": "tractography"},
 			{"method": "tracing"},
 			{"method": "dissection"}
-
-
+		"tractDepictions" [
+			{"seeTractEntryJsonForExample": "depiction1"},
+			{"seeTractEntryJsonForExample": "depiction2"},
+			{"seeTractEntryJsonForExample": "depiction3"}
 	]
 }
