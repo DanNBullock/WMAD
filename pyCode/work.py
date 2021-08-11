@@ -6,13 +6,15 @@ Created on Wed Aug 11 13:58:56 2021
 """
 
 pathToDocExcelFile='D:\Documents\gitDir\WMAD\CompleteExample\doc1\doc.xlsx'
-def excelDoc2JSON
+pathToDocDir='D:\Documents\gitDir\WMAD\CompleteExample\doc1\\'
+
+def excelDoc2JSON(docExcelPath):
     import pandas
     import json
     from habanero import Crossref
     
     #read excel file
-    docExcelData=pandas.read_excel(pathToDocExcelFile, header=None,index_col=0)
+    docExcelData=pandas.read_excel(docExcelPath, header=None,index_col=0)
     #extract doi from the pandas array
     currentDOI=docExcelData.loc['doi',docExcelData.loc['doi'].notnull()].values[0]
     
@@ -45,5 +47,49 @@ def excelDoc2JSON
     metadataJSON=json.dumps(initialDict)
     return metadataJSON
 
+def mergeTracts2JSON(docDir):
+    import json
+    import pandas
+    import os
+    dirContents=os.listdir(docDir)
+    #use regex to find valid files, should ignore ~ cases
+    import re
+    r = re.compile("^tract")
+    validFiles = list(filter(r.match, dirContents))
     
+    tractDict={}
+    for iTracts in validFiles:
+        #parse path to current tract excel record
+        currentExcelPath=os.path.join(docDir,iTracts)
+        #read data in
+        tractExcelData=pandas.read_excel(currentExcelPath, header=None,index_col=0)
+        #convert to dict
+        initialTractDict=tractExcelData.to_dict(orient="index")
+        #ugly method for cleaning null values, but it works                     
+        for k in list(initialTractDict.keys()):
+            for j in list(initialTractDict[k].keys()):
+                if pandas.isnull(initialTractDict[k][j]):
+                    del initialTractDict[k][j]
+        
+        tractDict[iTracts.replace('.xlsx','')]=initialTractDict
+        
+    outDict={}
+    outDict['tractDepictions']=tractDict
+    tractsJSON=json.dumps(outDict)
+    return tractsJSON
+        
+def convertDocExcelDir2JSON(docDir):
+    import os
+    import json
+    #generate JSON strings for both the doc and the tracts discussed
+    docJSON=excelDoc2JSON(os.path.join(docDir,'doc.xlsx'))
+    tractsJSON=mergeTracts2JSON(docDir)
 
+    #convert to dict structures and merge
+    docDict = json.loads(docJSON)
+    tractsDict = json.loads(tractsJSON)
+    merged_dict = {key: value for (key, value) in (docDict.items() + tractsDict.items())}
+
+    #JSON string of merged dict objects
+    docRecordJSON = json.dumps(merged_dict)
+    return docRecordJSON
