@@ -1,0 +1,19 @@
+{
+	"tractDepiction":{
+		"curator": "Curator's Name",
+		"tractTermsUsed": [
+			{"term": "term1"},
+			{"term": "term2"}
+		],
+    		"descriptions": [
+			{"desc": "textSectionLink1"},
+			{"desc": "textSectionLink2"}
+		],
+    		"figures": [
+			{"figure": "figureLink1"},
+			{"figure": "figureLink2"},
+			{"figure": "figureLink3"},
+			{"figure": "figureLink4"}
+		]
+	}
+}

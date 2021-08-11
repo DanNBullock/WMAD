@@ -1,0 +1,27 @@
+{
+	"document": {
+		"curator": "Curator's Name",
+		"title": "ArticleTitle",
+    		"journal": "JournalName",
+		"dateIssued": { "date-parts" : [ [ 2020,11,31 ] ] },
+		"authors": [
+			{"author": "author1Name"},
+			{"author": "author2Name"}
+		],
+		"doi": "doiNumber",
+		"species": [
+			{"modelSpecies": "human"},
+			{"modelSpecies": "macaque"}
+		],
+		"methods": [
+			{"method": "tractography"},
+			{"method": "tracing"},
+			{"method": "dissection"}
+                ],
+		"tractDepictions":[
+			{"seeTractEntryJsonForExample": "depiction1"},
+			{"seeTractEntryJsonForExample": "depiction2"},
+			{"seeTractEntryJsonForExample": "depiction3"}
+                ]
+	}
+}
