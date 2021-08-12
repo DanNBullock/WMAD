@@ -6,7 +6,7 @@ Created on Wed Aug 11 13:58:56 2021
 """
 
 pathToDocExcelFile='D:\Documents\gitDir\WMAD\CompleteExample\doc1\doc.xlsx'
-pathToDocDir='D:\Documents\gitDir\WMAD\CompleteExample\doc1\\'
+docDir='D:\Documents\gitDir\WMAD\CompleteExample\doc1\\'
 
 def excelDoc2JSON(docExcelPath):
     import pandas
@@ -75,7 +75,7 @@ def mergeTracts2JSON(docDir):
         
     outDict={}
     outDict['tractDepictions']=tractDict
-    tractsJSON=json.dumps(outDict)
+    tractsJSON=json.dumps(outDict, indent=4)
     return tractsJSON
         
 def convertDocExcelDir2JSON(docDir):
@@ -88,8 +88,19 @@ def convertDocExcelDir2JSON(docDir):
     #convert to dict structures and merge
     docDict = json.loads(docJSON)
     tractsDict = json.loads(tractsJSON)
-    merged_dict = {key: value for (key, value) in (docDict.items() + tractsDict.items())}
+    docDict.update(tractsDict)
 
     #JSON string of merged dict objects
-    docRecordJSON = json.dumps(merged_dict)
+    docRecordJSON = json.dumps(docDict, indent=4)
     return docRecordJSON
+
+def processDocDir(docDir):
+    
+    outJSON=convertDocExcelDir2JSON(docDir)
+    import os
+    outPath= os.path.join(docDir,'doc.json')
+    text_file = open(outPath, "w")
+    text_file.write(outJSON)
+    text_file.close()
+    
+    
