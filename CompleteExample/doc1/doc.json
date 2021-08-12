@@ -1,0 +1,280 @@
+{
+    "curator": {
+        "1": "Daniel Bullock"
+    },
+    "doi": {
+        "1": "10.1007/s00429-019-01907-8"
+    },
+    "species": {
+        "1": "human",
+        "2": "test"
+    },
+    "methods": {
+        "1": "tractography",
+        "2": "test"
+    },
+    "title": [
+        "Associative white matter connecting the dorsal and ventral posterior human cortex"
+    ],
+    "author": [
+        {
+            "given": "Daniel",
+            "family": "Bullock",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Hiromasa",
+            "family": "Takemura",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Cesar F.",
+            "family": "Caiafa",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Lindsey",
+            "family": "Kitchell",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Brent",
+            "family": "McPherson",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Bradley",
+            "family": "Caron",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "ORCID": "http://orcid.org/0000-0002-2469-0494",
+            "authenticated-orcid": false,
+            "given": "Franco",
+            "family": "Pestilli",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2019,
+                7,
+                24
+            ]
+        ]
+    },
+    "container-title": [
+        "Brain Structure and Function"
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "license": [
+        {
+            "start": {
+                "date-parts": [
+                    [
+                        2019,
+                        7,
+                        24
+                    ]
+                ],
+                "date-time": "2019-07-24T00:00:00Z",
+                "timestamp": 1563926400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+        },
+        {
+            "start": {
+                "date-parts": [
+                    [
+                        2019,
+                        7,
+                        24
+                    ]
+                ],
+                "date-time": "2019-07-24T00:00:00Z",
+                "timestamp": 1563926400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+        }
+    ],
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "superior longitudinal fasciculus",
+                "2": "SLF"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=We%20begin%20by,ILF%3B%20Davis%201921).",
+                "2": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20proportion%20of,et%20al.%202011).",
+                "3": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=One%20of%20the,respectively%3B%20Fig.%C2%A05b).",
+                "4": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=In%20addition%20to%20sharing,7%2C%208%2C%20and%2014)."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig1_HTML.png?as=webp",
+                "2": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig3_HTML.png?as=webp"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "inferior longitudinal fasciculus",
+                "2": "ILF"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=These%20canonical%20tracts%20have,lobe%20(ILF%3B%20Davis%201921).",
+                "2": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=In%20addition%2C%20the%20occipital%20lobe%20connects%20to%20the%20anterior%20temporal%20lobe%20via%20the%20ILF%20(Fig.%C2%A04a%20blue)",
+                "3": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Finally%2C%20the%20MdLF,of%20the%20ILF.",
+                "4": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=We%20further%20note,Figs.%C2%A013%2C%2016)."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig1_HTML.png?as=webp",
+                "2": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig3_HTML.png?as=webp",
+                "3": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig4_HTML.png?as=webp",
+                "4": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig16_HTML.png?as=webp"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "inferior fronto-occipital fasciculus",
+                "2": "IFOF"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=These%20canonical%20tracts%20have,lobe%20(ILF%3B%20Davis%201921)."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig1_HTML.png?as=webp",
+                "2": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig3_HTML.png?as=webp"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "vertical occipital fasciculus",
+                "2": "VOF"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20VOF%20is%20by%20definition%20restricted%20exclusively%20to%20the%20occipital%20white%20matter%20(Fig.%C2%A03%20column%203%2C%20copper%3B%20Yeatman%20et%20al.%202014%3B%20Takemura%20et%20al.%202016b%3B%20Rokem%20et%20al.%202017).",
+                "2": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=In%20addition%2C%20the%20occipital%20lobe%20connects%20to%20the%20anterior%20temporal%20lobe%20via%20the%20ILF%20(Fig.%C2%A04a%20blue)%2C%20while%20the%20VOF%20connects%20the%20dorsal%20and%20ventral%20streams%20within%20the%20occipital%20lobe%20(Fig.%C2%A04a%20copper).",
+                "3": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20TP-SPL%2C%20MdLF,to%20form%20a%20sheet.",
+                "4": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=More%20recently%2C%20researchers%20have%20taken,issue%20(Weiner%20et%20al.%202016).",
+                "5": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20VOF%20was%20segmented%20using%20the%20addition%20to%20AFQ%20that%20uses%20a%20single%20ROI%20methodology%2C%20along%20with%20additional%20exclusion%20criteria%2C%20and%20has%20been%20described%20in%20previous%20work%20(Yeatman%20et%20al.%202014)."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig2_HTML.png?as=webp",
+                "2": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig3_HTML.png?as=webp",
+                "3": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig4_HTML.png?as=webp",
+                "4": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig15_HTML.png?as=webp"
+            }
+        },
+        "tract5": {
+            "tractTermsUsed": {
+                "1": "posterior arcuate",
+                "2": "pArc"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=First%2C%20two%20streams%20connect%20the%20middle%20temporal%20lobe%20with%20superior%20and%20lateral%20parietal%20(TP-SPL%20and%20pArc%2C%20respectively%3B%20Fig.%C2%A04a%20cyan%20and%20purple).",
+                "2": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20posterior%20arcuate%20(pArc%3B%20Fig,Supplementary%20Fig.%C2%A03%20region%2016).",
+                "3": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20TP-SPL%20is%20found,Supplementary%20Figs.%C2%A06%20and%208).",
+                "4": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Analogous%20to%20the,than%20the%20pArc.",
+                "5": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Examination%20of%20the,8%2C%20and%2014).",
+                "6": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Likewise%2C%20in%20the,Supplementary%20Fig.%C2%A01).",
+                "7": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Importantly%2C%20tracts%20have%20been%20also%20newly%20named%2C%20for%20example%20when%20a%20larger%20tract%20has%20been%20subdivided%20into%20smaller%20one%2C%20as%20has%20been%20the%20case%20with%20the%20Arcuate%20and%20pArc%20(Catani%20et%20al.%202005)%2C%20the%20pArc%20itself%20(Panesar%20et%20al.%202019).",
+                "8": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=There%20is%20a,superior%20cortical%20terminations.",
+                "9": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20posterior%20Arcuate%20(pArc)%20has,issue%20(Weiner%20et%20al.%202016).",
+                "10": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20MdLF%20is,cortical%20termination%20zones.",
+                "12": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=We%20further%20note,Figs.%C2%A013%2C%2016).",
+                "14": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Here%2C%20we%20further,SPL%2C%20and%20pArc."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig6_HTML.png?as=webp",
+                "2": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig13_HTML.png?as=webp",
+                "3": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig10_HTML.png?as=webp",
+                "4": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig14_HTML.png?as=webp",
+                "5": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig2_HTML.png?as=webp",
+                "6": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig3_HTML.png?as=webp"
+            }
+        },
+        "tract6": {
+            "tractTermsUsed": {
+                "1": " temporo-parietal connection",
+                "2": " temporo-parietal connection to the superior parietal lobule",
+                "3": "TP-SPL",
+                "4": "TP"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=First%2C%20two%20streams%20connect%20the%20middle%20temporal%20lobe%20with%20superior%20and%20lateral%20parietal%20(TP-SPL%20and%20pArc%2C%20respectively%3B%20Fig.%C2%A04a%20cyan%20and%20purple).",
+                "2": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20temporo-parietal%20connection%20(TP-SPL%3B%20Fig,3%2C%20area%2016%3B%20Wu%20et%20al.%202016).",
+                "3": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20TP-SPL%20is%20found,Supplementary%20Figs.%C2%A06%20and%208).",
+                "4": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Although%20the%20IPS,1%2C%203%2C%2016).",
+                "5": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Examination%20of%20the,Figs.%C2%A05%E2%80%938).",
+                "6": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20temporal%20parietal%20connection%20(TP,SPL%20(Wu%20et%20al.%202016).",
+                "7": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Here%2C%20we%20further,SPL%2C%20and%20pArc."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig2_HTML.png?as=webp",
+                "2": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig3_HTML.png?as=webp",
+                "3": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig4_HTML.png?as=webp",
+                "4": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig7_HTML.png?as=webp",
+                "5": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig10_HTML.png?as=webp",
+                "6": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig12_HTML.png?as=webp",
+                "7": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig14_HTML.png?as=webp",
+                "8": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig15_HTML.png?as=webp"
+            }
+        },
+        "tract7": {
+            "tractTermsUsed": {
+                "1": " MdLF-Ang",
+                "2": "Angular gyrus component of the middle longitudinal fasciculus  ",
+                "3": "MdLF-IPL"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20angular%20gyrus%20component%20of%20the,9c%2C%20Supplementary%20Fig.%C2%A03%2C%20area%203).",
+                "2": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20two%20components,8%2C%20and%2014).",
+                "3": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Although%20the%20IPS,than%20the%20pArc.",
+                "4": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Two%20specific%20regions,of%20the%20ILF.",
+                "5": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Here%2C%20we%20further,above%20the%20Thalamus."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig2_HTML.png?as=webp",
+                "2": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig3_HTML.png?as=webp",
+                "3": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig4_HTML.png?as=webp",
+                "4": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig8_HTML.png?as=webp",
+                "5": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig11_HTML.png?as=webp",
+                "6": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig13_HTML.png?as=webp",
+                "7": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig16_HTML.png?as=webp"
+            }
+        },
+        "tract8": {
+            "tractTermsUsed": {
+                "1": " MdLF-SPL",
+                "2": "Superior parietal lobule component of the middle longitudinal fasciculus  "
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20superior%20parietal%20lobule%20component,Supplementary%20Fig.%C2%A03%2C%20area%203).",
+                "2": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20two%20components,8%2C%20and%2014).",
+                "3": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=Although%20the%20IPS,1%2C%203%2C%2016).",
+                "4": "https://link.springer.com/article/10.1007%2Fs00429-019-01907-8#:~:text=The%20TP-SPL%2C%20MdLF,termination%20of%20the%20ILF."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig2_HTML.png?as=webp",
+                "2": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig3_HTML.png?as=webp",
+                "3": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig4_HTML.png?as=webp",
+                "4": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig9_HTML.png?as=webp",
+                "5": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig11_HTML.png?as=webp",
+                "6": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig12_HTML.png?as=webp",
+                "7": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig15_HTML.png?as=webp",
+                "8": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig16_HTML.png?as=webp"
+            }
+        }
+    }
+}
