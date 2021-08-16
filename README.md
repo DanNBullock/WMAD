@@ -14,6 +14,9 @@ Elena Hayday
 ### PI
 [Sarah Heilbronner](https://med.umn.edu/bio/department-of-neuroscience/sarah-heilbronner) (heilb028@umn.edu)
 
+### Funding Information
+[This section needs expansion. You can help by adding to it.]
+
 ## Repository Contents
 Below you will find a description of the various directories’ contents.
 
