@@ -9,6 +9,6 @@ Pillow
 
 
 beautifulsoup4
-urllib
+
 habanero
 sphinxcontrib-bibtex==1.0.0
