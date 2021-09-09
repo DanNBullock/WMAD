@@ -3,10 +3,10 @@ name: WMAD_environment
 dependencies:
   - python=3.9
   - numpy
-  - pandas=0.18.0
-  - ipywidgets=7.0.0
+  - pandas
+  - ipywidgets
   - pillow
   - beautifulsoup4
   - habanero
-  - notebook>=4.0.0
+  - notebook
   - qgrid
