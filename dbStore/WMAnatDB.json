@@ -157,6 +157,72 @@
             }
         }
     },
+    "10-1227_01-neu-0000430298-25585-1d": {
+        "curator": {
+            "1": "Elena Hayday"
+        },
+        "doi": {
+            "1": "10.1227/01.neu.0000430298.25585.1d"
+        },
+        "species": {},
+        "methods": {},
+        "title": [
+            "The Temporoparietal Fiber Intersection Area and Wernicke Perpendicular Fasciculus"
+        ],
+        "author": [
+            {
+                "given": "Andreas Joachim",
+                "family": "Bartsch",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Karsten",
+                "family": "Geletneky",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Saad",
+                "family": "Jbabdi",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "published": {
+            "date-parts": [
+                [
+                    2013,
+                    8
+                ]
+            ]
+        },
+        "container-title": [
+            "Neurosurgery"
+        ],
+        "publisher": "Oxford University Press (OUP)",
+        "license": "unknown",
+        "tractDepictions": {
+            "tract1": {
+                "tractTermsUsed": {
+                    "1": "VOF"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/neurosurgery/article/73/2/E381/2417757#:~:text=So%20if%20the,of%20faces.16"
+                },
+                "figures": {}
+            },
+            "tract2": {
+                "tractTermsUsed": {
+                    "1": "pArc"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/neurosurgery/article/73/2/E381/2417757#:~:text=According%20to%20Makris%20et%20al%2C2%20the%20only%20vertical%20component%20of%20the%20SLF%20belongs%20to%20its%20fourth%20subdivision%20(SLF%20IV)%2C%20ie%2C%20the%20vertical%20part%20of%20the%20arcuate%20fasciculus%20(AF)%2C%20which%20Martino%20et%20al1%20identify%20with%20the%20second%20fiber%20tract%20in%20the%20TPFIA."
+                },
+                "figures": {}
+            }
+        }
+    },
     "10-1007_s00429-019-01907-8": {
         "curator": {
             "1": "Daniel Bullock"
@@ -434,6 +500,93 @@
                     "7": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig15_HTML.png?as=webp",
                     "8": "https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs00429-019-01907-8/MediaObjects/429_2019_1907_Fig16_HTML.png?as=webp"
                 }
+            }
+        }
+    },
+    "10-1093_brain_awg203": {
+        "curator": {
+            "1": "Elena Hayday"
+        },
+        "doi": {
+            "1": "10.1093/brain/awg203"
+        },
+        "species": {
+            "1": "Human"
+        },
+        "methods": {
+            "1": "Tractography",
+            "2": "DT-MRI"
+        },
+        "title": [
+            "Occipito-temporal connections in the human brain"
+        ],
+        "author": [
+            {
+                "given": "M.",
+                "family": "Catani",
+                "sequence": "first",
+                "affiliation": []
+            }
+        ],
+        "published": {
+            "date-parts": [
+                [
+                    2003,
+                    9,
+                    1
+                ]
+            ]
+        },
+        "container-title": [
+            "Brain"
+        ],
+        "publisher": "Oxford University Press (OUP)",
+        "license": "unknown",
+        "tractDepictions": {
+            "tract1": {
+                "tractTermsUsed": {
+                    "1": "ILF",
+                    "2": "Inferior longitudinal fasciculus"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=We%20were%20able,lobes%20(Fig.%208).",
+                    "2": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=pathways%20and%20ILF.-,ILF,was%20defined%20around%20the%20white%20matter%20of%20the%20occipital%20lobe.,-U%E2%80%90shaped%20fibres",
+                    "3": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=We%20argue%20that%20the%20location,but%2C%20nevertheless%2C%20represent%20distinct%20pathways."
+                },
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f1.gif?Expires=1632967679&Signature=oaxwpw7Ly85odSMBhjUbW6HW4FPMMnyS0zZNQ6iBmURe4EytWnFTzyz~9kpTurm9k-2jEBiK5NmuYDwdgUOWMajzjDszShQd77y5ElwaszZ~0gQ2b4RaE9IgOopUO9~lfxckBsW7YzA-4vCO4IivyDSk25Tnae~qFpHMrOjOqmVOKp3a2cucEvoUDWOdmkxyXAPXoG98J1gbbTiYjf99KtpUDlwJhd~9SBaef5yyDF7dtPr9fkeXka6cOJuTqrMSNnC5GKJNjBsyFv1IAoazC6DleAHYWYND39JGDLcwCjmCsAoVVp9JMK9NObXQqAXap2NUEHzpWXdU-FNCaHQx9A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f2.gif?Expires=1632967679&Signature=Yc3KnPgGuBBBGrbFFVRiUYi8hPMYaKOEVb6L7k-t3E~haf0fGZePOZ7isjaiJyWRgiP3fe994f9OCHHFrltXfPAN95ZmdUuIExGptux5Fl9Xfj8ib4NMn3PCJp~eUHp-cFqSJOipMSvEvTjWsXLgZmQq4RBoagp8IevAkcYVIre~94f3nCXTWI~9pjP2bMAtQOk4b~0jfEdwhQU1hlmxJu68u8krFIbuqGaXJPaqQER2NK9CvMgVo~26YEHGvu5w8nO19ghGinb08jrCPntaRV3kmlY-g-uQPLhje5dF6mE06iSP7JOx1Mov3qJWnuPEf0oEOOuFpB9esK5gP8S4Hw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f3.gif?Expires=1632967679&Signature=lGvpU8X6nptLM5DvOu5FrobBOX9-PlbAcDgRQCi8XkSFwEBG~D~u28TtpPIysLZrZm-BjCuCjIKW7Fej6V5GomJMpY71GzjvmyEKtwPWT1-IvEgRbtS2n16o63C--CN-ZtuFpW8eqxsrAvKvpZBEhO0t3yw3hvEjwA2UwIhRZN3SZa4jjai2tJ7rpTn0UN7q5pYDjRRyiAbK5szwHlBPS4JkWuK1BS0QqarVRbukW3fHCW99u6ypNsbra4b8zNQtiSsLRYgE~2yNWFUlc0VjQGi2R5jJkHPgLo-hGDOqnroLpGV4IoZesqHeXBV-yXdHWIY0cDIB4uN9S6RcMOVMqA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "4": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f4.gif?Expires=1632967679&Signature=Qr8i7G4V8hEPrVhBjPVG6wF1Gu6eBYwYqxDTxBT6yUOp4v0ZeLjvOI03nwqvE3ROwGjeYpoG7H7L9u2lb1SqhRMX4fmCENia1WhllsTA8Dq4gFkgEfCiBHIglpXldduBbsJJ7u4UsYTId806G4o6oDazSp4Zi2JqYcK3etO2bDDZMZb7K4aes-G5unQ7iiQk9-ZtHi0hEpJUs5QgwmDA~AuY6MlDc4pIM-97RyzYjUj5JkIIRIwnFqRz1akccEBzkcl2zuhvhGiKOgMmpYULEff4759N3nmohta3MYRQmDO560aXf3KJt4~oGxRS7kO9Fx8k84~jlQnm9RXwsqWbaw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "5": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f5.gif?Expires=1632967679&Signature=v19dA5uUOTZe9IvQah4OL6XxXR2umpF0kyivqj3J83wNOjni8fyWsLrAU7FEprNySOoTa-MIyHbByvc8PkTzVQRyImp7vH5KqLWb1jPI6q6ovT-yU6Xt7P3CuE-NxiVmyeRP2Aesqb2KJ4WccnkF0Q8B0ICVafgxj-dCyP86ThW9uv45ptBEw3q0v34HorF2DGnjZNkcltyDx346MUpxXXcoGFpt30alpgVEnS1YXpkK4s4V4rpOSLHz21L-jCbjWhygp5eRPrHH4CuzeAJAgSB5aRKXQ7xRdbD3IkmnBPcmO6iCpOXP-sJgR4N2m~2SZfBkWkG4BcsjZU98hjHh5A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "6": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f6.gif?Expires=1632967679&Signature=vzI9yBEO1s34LlKyQ-ZL-ExGn1pzz~4VtqNohLFD7p6HgYGbUorZJPux6P1t2HBbygZhfNw5cuyduye-bwskfA2nlKBLW2LgL5-nveARp9LBXoJhcRZ5RguJ6KSRg~nH81X00yUWhHV29OVrw8zmvk9ceKVMV7Q62MJ6yZbRBrkm1oasFBG2eETL8b~MUoGuKcwQqR1UXrbH~oqN5fuOzZf-DilzvVnDlXO6a9TU7s8-mR0SN0hXQddhdCMBFVOkFK2Rr2eSikmW6XHSt9QvyqhNpZAePkna0iUyk17kw3Ft1hx0W7ncUzVwTNqqeVII-nygar0Kk5CABVLAw~~b2g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "7": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f7.gif?Expires=1632967679&Signature=F7BKebg4DD3XDGCPGbyWRjhkc7jSCn5z86Yh~JgGXenOa5kyuO8~0rYd2tloqji-tOny1utuHHaTtgzSFUMKJa65uAlY5C63qPrnOdPG0MECiXBcD5E~aou5HBqDiEsJPrNlc-F0juqEOhRwScqXnG8KxWSzNP8wZYKXQKZxu8ZEyc92g5aymfCJeSnlLYwbXlU~6QXi7jakC7gxiWn0NqOggXNrv54Us9Gm5rO-mKf-nqZ43llix61g4ZPWh1RoSYMio-~bLDPoXq8bpgNZMie41558VXwh5zLKymMOLrLw76twKUvRNLWbmH2t66cuXuf2~18uwpkaFDDlIV6ncA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "8": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f8.gif?Expires=1632967679&Signature=lxXaaQ5gf-aSPcpn5XHAMG2K11FpfVOSh0SjDW9PXU9O2jWCC38ngo4iTp-GwmPtCuZpfxHDIXAEk9DvU7cMgLvWRb~UROakKj6TntcZAPTou9gtBOlqzNT0zfZvdYrK18rZJ2UfQdinaX71yNJYvEPVKlSiQIf8ndN3RmvPuzg6RBgz~IkHhCnlhy0TpcpuCtZ~VViFhy~K8Pd0Gfr52Z2rSPClRqJRSfnzVOmgxxcPI4o5X6G9bl4MI6hE8VHB7DRaWlp0BjiOU1ouITd2RoDzFol3YRrs1PLnMBi0kFQGnjHSgbZeVZAmTJrp0DK7AEyUZ4j2Ee-ieVYpz2AU9Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+                }
+            },
+            "tract2": {
+                "tractTermsUsed": {
+                    "1": "Optic nerve fibers",
+                    "2": "Optic radiations"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=As%20the%20optic,upper%20calcarine%20lip.",
+                    "2": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=shaped%20association%20fibres.-,Visual%20pathway,the%20first%20and%20third%20region%20to%20visualize%20the%20optic%20radiations.,-Splenial%20fibres"
+                },
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f2.gif?Expires=1632967679&Signature=Yc3KnPgGuBBBGrbFFVRiUYi8hPMYaKOEVb6L7k-t3E~haf0fGZePOZ7isjaiJyWRgiP3fe994f9OCHHFrltXfPAN95ZmdUuIExGptux5Fl9Xfj8ib4NMn3PCJp~eUHp-cFqSJOipMSvEvTjWsXLgZmQq4RBoagp8IevAkcYVIre~94f3nCXTWI~9pjP2bMAtQOk4b~0jfEdwhQU1hlmxJu68u8krFIbuqGaXJPaqQER2NK9CvMgVo~26YEHGvu5w8nO19ghGinb08jrCPntaRV3kmlY-g-uQPLhje5dF6mE06iSP7JOx1Mov3qJWnuPEf0oEOOuFpB9esK5gP8S4Hw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f3.gif?Expires=1632967679&Signature=lGvpU8X6nptLM5DvOu5FrobBOX9-PlbAcDgRQCi8XkSFwEBG~D~u28TtpPIysLZrZm-BjCuCjIKW7Fej6V5GomJMpY71GzjvmyEKtwPWT1-IvEgRbtS2n16o63C--CN-ZtuFpW8eqxsrAvKvpZBEhO0t3yw3hvEjwA2UwIhRZN3SZa4jjai2tJ7rpTn0UN7q5pYDjRRyiAbK5szwHlBPS4JkWuK1BS0QqarVRbukW3fHCW99u6ypNsbra4b8zNQtiSsLRYgE~2yNWFUlc0VjQGi2R5jJkHPgLo-hGDOqnroLpGV4IoZesqHeXBV-yXdHWIY0cDIB4uN9S6RcMOVMqA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f4.gif?Expires=1632967679&Signature=Qr8i7G4V8hEPrVhBjPVG6wF1Gu6eBYwYqxDTxBT6yUOp4v0ZeLjvOI03nwqvE3ROwGjeYpoG7H7L9u2lb1SqhRMX4fmCENia1WhllsTA8Dq4gFkgEfCiBHIglpXldduBbsJJ7u4UsYTId806G4o6oDazSp4Zi2JqYcK3etO2bDDZMZb7K4aes-G5unQ7iiQk9-ZtHi0hEpJUs5QgwmDA~AuY6MlDc4pIM-97RyzYjUj5JkIIRIwnFqRz1akccEBzkcl2zuhvhGiKOgMmpYULEff4759N3nmohta3MYRQmDO560aXf3KJt4~oGxRS7kO9Fx8k84~jlQnm9RXwsqWbaw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+                }
+            },
+            "tract3": {
+                "tractTermsUsed": {
+                    "1": "Forceps major"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=the%20optic%20radiations.-,Splenial%20fibres,compare%20the%20anatomical%20relationships%20of%20the%20visual%20pathways%20and%20ILF.,-ILF"
+                },
+                "figures": {}
             }
         }
     },
@@ -1058,6 +1211,279 @@
             }
         }
     },
+    "10-1016_j-neuroscience-2014-07-035": {
+        "curator": {
+            "1": "Elena Hayday"
+        },
+        "doi": {
+            "1": "10.1016/j.neuroscience.2014.07.035"
+        },
+        "species": {
+            "1": "Human"
+        },
+        "methods": {
+            "1": "Tractography"
+        },
+        "title": [
+            "Decoding the superior parietal lobule connections of the superior longitudinal fasciculus/arcuate fasciculus in the human brain"
+        ],
+        "author": [
+            {
+                "given": "A.",
+                "family": "Kamali",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "H.I.",
+                "family": "Sair",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "A.",
+                "family": "Radmanesh",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "K.M.",
+                "family": "Hasan",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "published": {
+            "date-parts": [
+                [
+                    2014,
+                    9
+                ]
+            ]
+        },
+        "container-title": [
+            "Neuroscience"
+        ],
+        "publisher": "Elsevier BV",
+        "license": [
+            {
+                "start": {
+                    "date-parts": [
+                        [
+                            2014,
+                            9,
+                            1
+                        ]
+                    ],
+                    "date-time": "2014-09-01T00:00:00Z",
+                    "timestamp": 1409529600000
+                },
+                "content-version": "tdm",
+                "delay-in-days": 0,
+                "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+            }
+        ],
+        "tractDepictions": {
+            "tract1": {
+                "tractTermsUsed": {
+                    "1": "Superior longitudinal fasciculus"
+                },
+                "descriptions": {},
+                "figures": {
+                    "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg"
+                }
+            },
+            "tract2": {
+                "tractTermsUsed": {
+                    "1": "Arcuate fasciculus",
+                    "2": "AF"
+                },
+                "descriptions": {
+                    "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083#:~:text=The%20AF%20is,44%20and%2045)."
+                },
+                "figures": {
+                    "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg"
+                }
+            },
+            "tract3": {
+                "tractTermsUsed": {
+                    "1": "Middle longitudinal fasciculus",
+                    "2": "MDLF-IPL"
+                },
+                "descriptions": {
+                    "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083#:~:text=Accounted%20as%20the,SPL%20(BA%207)."
+                },
+                "figures": {
+                    "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg",
+                    "2": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr2.jpg",
+                    "3": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr3.jpg"
+                }
+            },
+            "tract4": {
+                "tractTermsUsed": {
+                    "1": "Middle longitudinal fasciculus",
+                    "2": "MDLF-SPL"
+                },
+                "descriptions": {
+                    "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083#:~:text=Accounted%20as%20the,SPL%20(BA%207).",
+                    "2": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=In%20our%20experience%2C%20at,subjects%20in%20future%20studies."
+                },
+                "figures": {
+                    "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg"
+                }
+            },
+            "tract5": {
+                "tractTermsUsed": {
+                    "1": "Cing"
+                },
+                "descriptions": {},
+                "figures": {
+                    "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg"
+                }
+            },
+            "tract6": {
+                "tractTermsUsed": {
+                    "1": "TP-SPL",
+                    "2": "SLF/AF TP-SPL"
+                },
+                "descriptions": {
+                    "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=The%20trajectory%20of%20the%20TP-SPL%20has,the%20superior%20temporal%20gyrus%20(BA%2022%2C%2042).",
+                    "2": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=In%20the%20current%20study%20we%20demonstrate,into%20the%20superior%20or%20IPL%20connections.",
+                    "3": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=In%20our%20experience%2C%20at,subjects%20in%20future%20studies.",
+                    "4": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=The%20TP-SPL%20(yellow%20arrows%20in,in%20humans%20compared%20with%20other%20primates."
+                },
+                "figures": {
+                    "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr3.jpg"
+                }
+            },
+            "tract7": {
+                "tractTermsUsed": {
+                    "1": "TP-IPL",
+                    "2": "SLF/AF TP-IPL"
+                },
+                "descriptions": {
+                    "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=Considered%20as%20the%20posterior%20temporoparietal,black%20arrows%20in%20Fig.%203)."
+                },
+                "figures": {
+                    "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr3.jpg"
+                }
+            }
+        }
+    },
+    "doi-org_10-1093_cercor_bhh186": {
+        "curator": {
+            "1": "Elena Hayday"
+        },
+        "doi": {
+            "1": "doi.org/10.1093/cercor/bhh186"
+        },
+        "species": {
+            "1": "Humans"
+        },
+        "methods": {
+            "1": "DT-MRI"
+        },
+        "title": [
+            "Segmentation of Subcomponents within the Superior Longitudinal Fascicle in Humans: A Quantitative, In Vivo, DT-MRI Study"
+        ],
+        "author": [
+            {
+                "given": "Nikos",
+                "family": "Makris",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "David N.",
+                "family": "Kennedy",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Sean",
+                "family": "McInerney",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "A. Gregory",
+                "family": "Sorensen",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Ruopeng",
+                "family": "Wang",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "suffix": "Jr",
+                "given": "Verne S.",
+                "family": "Caviness",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Deepak N.",
+                "family": "Pandya",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "published": {
+            "date-parts": [
+                [
+                    2004,
+                    12,
+                    8
+                ]
+            ]
+        },
+        "container-title": [
+            "Cerebral Cortex"
+        ],
+        "publisher": "Oxford University Press (OUP)",
+        "license": "unknown",
+        "tractDepictions": {
+            "tract1": {
+                "tractTermsUsed": {
+                    "1": "Superior longitudinal fascicle",
+                    "2": "SLF"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=For%20SLF%20I,in%20each%20subject.",
+                    "2": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=In%20the%20coronal%20plane%20SLF,of%20the%20inferior%20frontal%20gyrus.",
+                    "3": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=Our%20observations%20suggest,in%20the%20human.",
+                    "4": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=In%20conclusion%2C%20in,and%20audiospatial%20processing."
+                },
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f01a_h_4c.jpeg?Expires=1633023497&Signature=cfSRNzuL71EwSDqblM8SdhFGkQMxvDzg76nf1ZsoVM1RMARETkClrRkcyF-vIY57y6d1OpmFRmBqxQEH5ZZn0hsJIQU80eWD5fVKkjMb5WoV6kMooJSpPcBpckEollaOCXRxXqQKRrvGhWHKsO7qvrTCSAROOLE8WGE-Neg8RfCmO7ZQRD-48aBqu3HGydEj7eSkqii3JA7z4FssIlXF04HTVh8jhn8xtjFljENWE8qldTD1cYuxx0bobXJzIbM93sP~7U~2QKsHC6aMPozBG7nexpw4fvNgymoCtckt7R~297C8Fe8snEF7M5YXXnIK7-WwI3-ZZxAiyQ9YExCsCg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f02_4c.jpeg?Expires=1633023497&Signature=mH6mxxeClblUbaPcgasrhDLhMR3uvM0t3gvb4NRkrkqKMTgykbrbVg~emZSEY5UK2qwqfHmAvF05KkY~zTnhQUORqVetFUYow1GejhmK4zZNduFkj7nbY3mxfnGkI2SG0FpMpIQsrArelH4g-~1eWG1XQSwkfDQm6Rkr2TTCaiXdxORyrPJDakwn8hltwGRZar0-HEqd5j40LMM9hYhn-zoFMWOMBTLJsPlqRvGB0HTrt9-vw9zJEx8lIaSjmeDcO8bTHbcuF6UvxUKLCX1lCvVTbdD~0MBMYbvcMan9hL6gZT-VsKY6OV1G3gMBmUpmr7BvwPGllXcxlDa8zI74VA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f03_4c.jpeg?Expires=1633023497&Signature=SYFef152Pcs~kKd2cCp1Etak5QSZkMH3V1G9tkSMeCm4gn2ZsR~vnblRST4nep-5GbziDtODvBrqXSEBnPvLoIQ890RbR6sWftFqN~FN1dkGwHppClUi0ESk3xzSP2SHFnNc0tEcDsB9H8Dmtb3PNNdQ2WP65ISrSTqXWA1u0AcrN6nVC5g8RVUGIWzhsmrNGl1zzaw6zOJiFqxN6W9uzqxkN08LnsCruJeAOjYA51xni5HrIaiUm5a39fTtya2Q~nI4lJl4KrKxst6Xi~mMwtvsPYbzXSXl25p2fMwS5u1oQjJ6h2pCUdGG~BJZSqIrGyWu1t7awoEZ5MTQY~4c6g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "4": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f04_4c.jpeg?Expires=1633023497&Signature=rbAELgfqQe6uAUfBA1q6IfeT5njUJmHWHXEDwPBTMlEafAjXQL6B276-tPtFuOL-0kvNEO6GjK4An8mudZWVH0HVfeKmNVDcgTk1etYGO7CglAFONgPeR85fuTgSeF-JITdzklyDSb04fLZgj5L8M9eUtSU8P4lyxz9SVodNQ9gEy9J49-5X2RHOLrCTC64L7sMIEljqJCjCJRzptaEtI0Xb-n4mc4ALT9j8E-oqaTctDxAh3KMT8CN3aMCD7cPQ9rXKqCyNYv-nuAeH9AEpcS37egheheR1UlOGftXeulbwgUNqyPcjn5OWnNHJn5gNAKETBx3u9R2I5pvGSoEkvA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "5": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f05_4c.jpeg?Expires=1633023497&Signature=c9cbr3Qscc8u8D0YhEJDq0w9PW4XzhF7ZDBl~s3geBk3YusKZdovXI3I1BhvZEHhpW5gDvykXNQmGXa92mkVlbR3pNPcKgyMAVgt9uKMGsuiM4TpfDzJhRnQlNkzx6pSiezOsfOlCSGo1NIk7BM5rc10aaIEGytKHgWhnnwnXDxvSmqQmBG6QIqkYwRICNDWzs1za8JKCIZ1n1qESh8Ze1DII9PfXL3jh9pYn4fw6FVoinKBNEjO0HdpwbTUe2r27M~lOMxYUenMXKpLoEpsS0h3BysBC-vqPPS2Yll1yJqx2KBJHTMnqndTgSOQDg8HAW7Xkpx8jhy-QBHbnfMlgg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "6": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f06_4c.jpeg?Expires=1633023497&Signature=ntoVGLzWP4EhxWEjQ9pOSIQExZQeOD22KuKRVg~oRd-aYFYDrt2Ck3n7hJVdDkK2ct~-UB9D9jBzbDpzV33lKi0o03WczYFLFHMEUP5COkVILqsGbrTeZyJhLTQoMYolpRtfNEsEY8qFkRybQQiPD~A4dhxtGOZK9xDPhKh1NQiqpHg63HkXMnS~1SYybkcixJBx~c17fI0hTFUTXvwKdKZ150ltRU5ba~bIQDygaPiqqbbgFBNlRJ6kadTYT~Dy971Jm-7~7Sdav1oI4zqHeqePZD~PvLPbpJDozGKTIrDaTo8yYgQ9RFzmpzhWfev708UGk86VRo3JWKnV3G5K3A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+                }
+            },
+            "tract2": {
+                "tractTermsUsed": {
+                    "1": "AF",
+                    "2": "AFv",
+                    "3": "AFh"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=The%20horizontal%20part%20of%20the%20arcuate%20fascicle%20(AFh,vertical%20in%20nature%20(Figs%201%2C%202%2C%203B%2CD)."
+                },
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f01a_h_4c.jpeg?Expires=1633023497&Signature=cfSRNzuL71EwSDqblM8SdhFGkQMxvDzg76nf1ZsoVM1RMARETkClrRkcyF-vIY57y6d1OpmFRmBqxQEH5ZZn0hsJIQU80eWD5fVKkjMb5WoV6kMooJSpPcBpckEollaOCXRxXqQKRrvGhWHKsO7qvrTCSAROOLE8WGE-Neg8RfCmO7ZQRD-48aBqu3HGydEj7eSkqii3JA7z4FssIlXF04HTVh8jhn8xtjFljENWE8qldTD1cYuxx0bobXJzIbM93sP~7U~2QKsHC6aMPozBG7nexpw4fvNgymoCtckt7R~297C8Fe8snEF7M5YXXnIK7-WwI3-ZZxAiyQ9YExCsCg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f02_4c.jpeg?Expires=1633023497&Signature=mH6mxxeClblUbaPcgasrhDLhMR3uvM0t3gvb4NRkrkqKMTgykbrbVg~emZSEY5UK2qwqfHmAvF05KkY~zTnhQUORqVetFUYow1GejhmK4zZNduFkj7nbY3mxfnGkI2SG0FpMpIQsrArelH4g-~1eWG1XQSwkfDQm6Rkr2TTCaiXdxORyrPJDakwn8hltwGRZar0-HEqd5j40LMM9hYhn-zoFMWOMBTLJsPlqRvGB0HTrt9-vw9zJEx8lIaSjmeDcO8bTHbcuF6UvxUKLCX1lCvVTbdD~0MBMYbvcMan9hL6gZT-VsKY6OV1G3gMBmUpmr7BvwPGllXcxlDa8zI74VA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f03_4c.jpeg?Expires=1633023497&Signature=SYFef152Pcs~kKd2cCp1Etak5QSZkMH3V1G9tkSMeCm4gn2ZsR~vnblRST4nep-5GbziDtODvBrqXSEBnPvLoIQ890RbR6sWftFqN~FN1dkGwHppClUi0ESk3xzSP2SHFnNc0tEcDsB9H8Dmtb3PNNdQ2WP65ISrSTqXWA1u0AcrN6nVC5g8RVUGIWzhsmrNGl1zzaw6zOJiFqxN6W9uzqxkN08LnsCruJeAOjYA51xni5HrIaiUm5a39fTtya2Q~nI4lJl4KrKxst6Xi~mMwtvsPYbzXSXl25p2fMwS5u1oQjJ6h2pCUdGG~BJZSqIrGyWu1t7awoEZ5MTQY~4c6g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "4": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f04_4c.jpeg?Expires=1633023497&Signature=rbAELgfqQe6uAUfBA1q6IfeT5njUJmHWHXEDwPBTMlEafAjXQL6B276-tPtFuOL-0kvNEO6GjK4An8mudZWVH0HVfeKmNVDcgTk1etYGO7CglAFONgPeR85fuTgSeF-JITdzklyDSb04fLZgj5L8M9eUtSU8P4lyxz9SVodNQ9gEy9J49-5X2RHOLrCTC64L7sMIEljqJCjCJRzptaEtI0Xb-n4mc4ALT9j8E-oqaTctDxAh3KMT8CN3aMCD7cPQ9rXKqCyNYv-nuAeH9AEpcS37egheheR1UlOGftXeulbwgUNqyPcjn5OWnNHJn5gNAKETBx3u9R2I5pvGSoEkvA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+                }
+            }
+        }
+    },
     "doi-org_10-1093_cercor_bhn124": {
         "curator": {
             "1": "Sylvie Bindas"
@@ -1129,6 +1555,36 @@
         "publisher": "Oxford University Press (OUP)",
         "license": "unknown",
         "tractDepictions": {
+            "tract1": {
+                "tractTermsUsed": {
+                    "1": "middle longitudinal fascicle",
+                    "2": "MdLF"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=One%20of%20the%20long%20association%20pathways%2C%20namely%20the%20middle,respectively%20(Seltzer%20and%20Pandya%201984%3B%20Schmahmann%20et%20al.%202007).",
+                    "2": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=Our%20results%20reveal%20that%20there%20is%20a%20fiber%20pathway%20within%20the%20core%20of%20the%20white%20matter%20of%20the%20STG%20equivalent%20to%20that%20of%20MdLF%20in%20monkeys.%20It%20is%20further%20shown%20that%20MdLF%20is%20quite%20distinct%20from%20other%20adjoining%20pathways%20such%20as%20the%20AF%20and%20the%20SLF.",
+                    "3": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=To%20determine%20whether,STG%20(Fig.%201).",
+                    "4": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=The%20capability%20to,the%20present%20results.",
+                    "5": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=In%20the%20present%20study%2C%20first,MdLF%20(Figs%201%2C%202%2C%203).",
+                    "6": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=As%20shown%20in%20Figure%204,the%20angular%20gyrus%20(BA%2039).",
+                    "7": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=We%20also%20derived%20measurements%20of%20the%20volumes%20and,84%25%20and%20intrarater%20reliability%20was%2086%25%20for%20overlap.",
+                    "8": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=With%20this%20being,tractography%20(Fig.%208A).",
+                    "9": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=It%20is%20worth%20noting%20that%20whereas%20in%20the%20dominant%20hemisphere%20the%20role%20of%20the%20MdLF%20may%20be%20related%20to%20language%20function%2C%20in%20the%20nondominant%20hemisphere%20the%20MdLF%20may%20have%20a%20role%20in%20attentional%20processing.",
+                    "10": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=The%20FA%20values,0.38%20to%200.59.",
+                    "11": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=Although%20the%20MdLF,than%20the%20MdLF.",
+                    "12": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=The%20stem%20of%20the%20MdLF%20showed,to%20language%20function%20for%20the%20MdLF."
+                },
+                "figures": {
+                    "1": "https://academic.oup.com/view-large/figure/3464135/cercorbhn124f01_4c.jpeg",
+                    "2": "https://academic.oup.com/view-large/figure/3464138/cercorbhn124f02_4c.jpeg",
+                    "3": "https://academic.oup.com/view-large/figure/3464139/cercorbhn124f03_4c.jpeg",
+                    "4": "https://academic.oup.com/view-large/figure/3464142/cercorbhn124f04_4c.jpeg",
+                    "5": "https://academic.oup.com/view-large/figure/3464149/cercorbhn124f05_4c.jpeg",
+                    "6": "https://academic.oup.com/view-large/figure/3464152/cercorbhn124f06_4c.jpeg",
+                    "7": "https://academic.oup.com/view-large/figure/3464156/cercorbhn124f07_4c.jpeg",
+                    "8": "https://academic.oup.com/view-large/figure/3464177/cercorbhn124f08_4c.jpeg"
+                }
+            },
             "tract1.xslx": {
                 "tractTermsUsed": {
                     "1": "middle longitudinal fascicle",
@@ -1159,6 +1615,22 @@
                     "8": "https://academic.oup.com/view-large/figure/3464177/cercorbhn124f08_4c.jpeg"
                 }
             },
+            "tract2": {
+                "tractTermsUsed": {
+                    "1": "superior longitudinal fascicle",
+                    "2": "SLF"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=As%20shown%20in%20Figure%204,the%20angular%20gyrus%20(BA%2039).",
+                    "2": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=In%20previous%20studies%20of%20the%20cingulum%20bundle%20and%20the%20SLF%20we%20have%20shown%20that%20FA%20values%20of%20the%20CB%20ranged%20from%200.45%20to%200.54%20(Makris%2C%20Pandya%2C%20et%20al.%202002)%2C%20the%20overall%20FA%20for%20the%20SLF%20(all%204%20subcomponents%20combined)%20was%200.44%2C%20and%20that%20SLF%20I%20in%20particular%20showed%20FA%20of%200.36%20to%200.37%20(Makris%20et%20al.%202005).",
+                    "3": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=Although%20the%20MdLF,than%20the%20MdLF."
+                },
+                "figures": {
+                    "1": "https://academic.oup.com/view-large/figure/3464152/cercorbhn124f06_4c.jpeg",
+                    "2": "https://academic.oup.com/view-large/figure/3464156/cercorbhn124f07_4c.jpeg",
+                    "3": "https://academic.oup.com/view-large/figure/3464177/cercorbhn124f08_4c.jpeg"
+                }
+            },
             "tract2.xslx": {
                 "tractTermsUsed": {
                     "1": "superior longitudinal fascicle",
@@ -1187,6 +1659,174 @@
                     "1": "https://academic.oup.com/view-large/figure/3464152/cercorbhn124f06_4c.jpeg",
                     "2": "https://academic.oup.com/view-large/figure/3464156/cercorbhn124f07_4c.jpeg",
                     "3": "https://academic.oup.com/view-large/figure/3464177/cercorbhn124f08_4c.jpeg"
+                }
+            }
+        }
+    },
+    "10-1227_NEU-0b013e318274294b": {
+        "curator": {
+            "1": "Elena Hayday"
+        },
+        "doi": {
+            "1": "10.1227/NEU.0b013e318274294b"
+        },
+        "species": {
+            "1": "Human"
+        },
+        "methods": {
+            "1": "Dissection",
+            "2": "DTI ",
+            "3": "Tractography"
+        },
+        "title": [
+            "Fiber Dissection and Diffusion Tensor Imaging Tractography Study of the Temporoparietal Fiber Intersection Area"
+        ],
+        "author": [
+            {
+                "given": "Juan",
+                "family": "Martino",
+                "sequence": "first",
+                "affiliation": [
+                    {
+                        "name": "Department of Neurological Surgery"
+                    }
+                ]
+            },
+            {
+                "given": "Rousinelle da",
+                "family": "Silva-Freitas",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Department of Neurological Surgery"
+                    }
+                ]
+            },
+            {
+                "given": "Hugo",
+                "family": "Caballero",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Department of Neurological Surgery"
+                    }
+                ]
+            },
+            {
+                "given": "Enrique",
+                "family": "Marco de Lucas",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Department of Radiology, Hospital Universitario Marqu\u00e9s de Valdecilla and Instituto de Formaci\u00f3n e Investigaci\u00f3n Marqu\u00e9s de Valdecilla, Santander, Cantabria, Spain"
+                    }
+                ]
+            },
+            {
+                "given": "Juan A.",
+                "family": "Garc\u00eda-Porrero",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Department of Anatomy and Cellular Biology, Cantabria University, Santander, Cantabria, Spain"
+                    }
+                ]
+            },
+            {
+                "given": "Alfonso",
+                "family": "V\u00e1zquez-Barquero",
+                "sequence": "additional",
+                "affiliation": [
+                    {
+                        "name": "Department of Neurological Surgery"
+                    }
+                ]
+            }
+        ],
+        "published": {
+            "date-parts": [
+                [
+                    2012,
+                    3,
+                    10
+                ]
+            ]
+        },
+        "container-title": [
+            "Operative Neurosurgery"
+        ],
+        "publisher": "Oxford University Press (OUP)",
+        "license": "unknown",
+        "tractDepictions": {
+            "tract1": {
+                "tractTermsUsed": {},
+                "descriptions": {},
+                "figures": {}
+            }
+        }
+    },
+    "10-1227_01-neu-0000430303-56079-0e": {
+        "curator": {
+            "1": "Elena Hayday"
+        },
+        "doi": {
+            "1": "10.1227/01.neu.0000430303.56079.0e"
+        },
+        "species": {},
+        "methods": {},
+        "title": [
+            "Wernicke Perpendicular Fasciculus and Vertical Portion of the Superior Longitudinal Fasciculus"
+        ],
+        "author": [
+            {
+                "given": "Juan",
+                "family": "Martino",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Juan A.",
+                "family": "Garc\u00eda-Porrero",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "published": {
+            "date-parts": [
+                [
+                    2013,
+                    8
+                ]
+            ]
+        },
+        "container-title": [
+            "Neurosurgery"
+        ],
+        "publisher": "Oxford University Press (OUP)",
+        "license": "unknown",
+        "tractDepictions": {
+            "tract1": {
+                "tractTermsUsed": {
+                    "1": "SLF",
+                    "2": "Superior longitudinal fasciculus"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/neurosurgery/article/73/2/E382/2417758#:~:text=Specifically%2C%20the%20most,fasciculus%20(VOF)%20(Figure)."
+                },
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/neurosurgery/73/2/10.1227_01.neu.0000430303.56079.0e/2/m_neurosurgery-73-2-E382_f1.jpeg?Expires=1632754009&Signature=ZX8VBZXhGYFpg4exRYb5DgttAB-ajD1BHsv6Z3j7UfufAH4XaXFcvO9mCMfdcqbvVOWhg9eRLGNfD0JvvNuuohNiQwvCkYNhONC6FRrOTbIuQgVyaxI4eQwZMnnjh85fSNisVA0v0jLAsldLs7ukORraFR9Nctlsou3L3ZKS0~Bs13Cr3-~Jczlg10VG616OPA4yxuw7mCOWaW~pZlTv3PWt5BeuaOoxVF8IUQojYZPQN1Qd0~HdHLCoPQM2ET6Pw8lEkpOpgwzMOnAzFZRAgoMQ5Trq3zKoTZ5T-bL6cNLV0EEuxhLGE8~BlL1H0C2O2j2xZqJyZOt61sWm8rT0fg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+                }
+            },
+            "tract2": {
+                "tractTermsUsed": {
+                    "1": "VOF",
+                    "2": "Vertical occipital fasciculus"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/neurosurgery/article/73/2/E382/2417758#:~:text=However%2C%20the%20vertical,of%20the%20SLF.5"
+                },
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/neurosurgery/73/2/10.1227_01.neu.0000430303.56079.0e/2/m_neurosurgery-73-2-E382_f1.jpeg?Expires=1632754009&Signature=ZX8VBZXhGYFpg4exRYb5DgttAB-ajD1BHsv6Z3j7UfufAH4XaXFcvO9mCMfdcqbvVOWhg9eRLGNfD0JvvNuuohNiQwvCkYNhONC6FRrOTbIuQgVyaxI4eQwZMnnjh85fSNisVA0v0jLAsldLs7ukORraFR9Nctlsou3L3ZKS0~Bs13Cr3-~Jczlg10VG616OPA4yxuw7mCOWaW~pZlTv3PWt5BeuaOoxVF8IUQojYZPQN1Qd0~HdHLCoPQM2ET6Pw8lEkpOpgwzMOnAzFZRAgoMQ5Trq3zKoTZ5T-bL6cNLV0EEuxhLGE8~BlL1H0C2O2j2xZqJyZOt61sWm8rT0fg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
                 }
             }
         }
@@ -1329,6 +1969,19 @@
                     "3": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g006.jpg"
                 }
             },
+            "tract4": {
+                "tractTermsUsed": {
+                    "1": "ifo",
+                    "2": "inferior fronto-occipital fasciculus"
+                },
+                "descriptions": {
+                    "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus.",
+                    "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Throughout%20these%20areas%2C%20a%20limited%20number%20of%20white%20matter%20tracts%20could%20be%20clearly%20identified%20in%20the%20in%20vivo%20images%2C%20including%20the%20anterior%20commissure%20(ac)%2C%20optic%20tract%20(ot)%20and%20the%20inferior%20fronto-occipital%20fasciculus%20(ifo)."
+                },
+                "figures": {
+                    "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g001.jpg"
+                }
+            },
             "tract4.xslx": {
                 "tractTermsUsed": {
                     "1": "ifo",
@@ -1352,6 +2005,21 @@
                 },
                 "figures": {
                     "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g001.jpg"
+                }
+            },
+            "tract6": {
+                "tractTermsUsed": {
+                    "1": "ot",
+                    "2": "optic tract",
+                    "3": "optic radiation"
+                },
+                "descriptions": {
+                    "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus.",
+                    "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Throughout%20these%20areas%2C%20a%20limited%20number%20of%20white%20matter%20tracts%20could%20be%20clearly%20identified%20in%20the%20in%20vivo%20images%2C%20including%20the%20anterior%20commissure%20(ac)%2C%20optic%20tract%20(ot)%20and%20the%20inferior%20fronto-occipital%20fasciculus%20(ifo).",
+                    "3": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=In%20Figures%202%E2%80%935%2C%20it%20is%20clear%20that%20even%20major%20white%20matter%20bundles%2C%20such%20as%20the%20cerebral%20peduncle%20(cp)%2C%20internal%20capsule%20(ic)%20and%20optic%20radiation%20(or)%2C%20have%20highly%20complex%20microscopic%20structures."
+                },
+                "figures": {
+                    "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
                 }
             },
             "tract6.xslx": {
@@ -1381,6 +2049,18 @@
                     "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
                 }
             },
+            "tract8": {
+                "tractTermsUsed": {
+                    "1": "al",
+                    "2": "ansa lenticularis"
+                },
+                "descriptions": {
+                    "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=This%20area%20contained,the%20substantia%20innominata."
+                },
+                "figures": {
+                    "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
+                }
+            },
             "tract8.xslx": {
                 "tractTermsUsed": {
                     "1": "al",
@@ -1391,6 +2071,18 @@
                 },
                 "figures": {
                     "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
+                }
+            },
+            "tract9": {
+                "tractTermsUsed": {
+                    "1": "slic",
+                    "2": "sublenticular internal capsule"
+                },
+                "descriptions": {
+                    "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%205B%20shows,internal%20capsule%20(slic)."
+                },
+                "figures": {
+                    "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g005.jpg"
                 }
             },
             "tract9.xslx": {
@@ -1404,6 +2096,126 @@
                 "figures": {
                     "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g005.jpg"
                 }
+            }
+        }
+    },
+    "10-1093_cercor_bhs225": {
+        "curator": {
+            "1": "Elena Hayday"
+        },
+        "doi": {
+            "1": "10.1093/cercor/bhs225"
+        },
+        "species": {
+            "1": "Human"
+        },
+        "methods": {
+            "1": "Tractography",
+            "2": "Microdissection",
+            "3": "DSI"
+        },
+        "title": [
+            "Rethinking the Role of the Middle Longitudinal Fascicle in Language and Auditory Pathways"
+        ],
+        "author": [
+            {
+                "given": "Yibao",
+                "family": "Wang",
+                "sequence": "first",
+                "affiliation": []
+            },
+            {
+                "given": "Juan C.",
+                "family": "Fern\u00e1ndez-Miranda",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Timothy",
+                "family": "Verstynen",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Sudhir",
+                "family": "Pathak",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Walter",
+                "family": "Schneider",
+                "sequence": "additional",
+                "affiliation": []
+            },
+            {
+                "given": "Fang-Cheng",
+                "family": "Yeh",
+                "sequence": "additional",
+                "affiliation": []
+            }
+        ],
+        "published": {
+            "date-parts": [
+                [
+                    2012,
+                    8,
+                    8
+                ]
+            ]
+        },
+        "container-title": [
+            "Cerebral Cortex"
+        ],
+        "publisher": "Oxford University Press (OUP)",
+        "license": "unknown",
+        "tractDepictions": {
+            "tract1": {
+                "tractTermsUsed": {
+                    "1": "Middle longitudinal fasciculus",
+                    "2": "MdLF"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/cercor/article/23/10/2347/292625#:~:text=In%20coronal%20and%20axial%20views%2C%20it%20can%20be%20clearly%20noticed%20that%20the%20MdLF%20makes%20a%20wide-angle%20turn%20at%20the%20temporoparietal%20junction%20that%20redirects%20the%20trajectory%20of%20the%20fibers%20from%20anterolateral%20(temporal%20region)%20to%20posteromedial%20(parietal%20region)%20(Fig.%C2%A01E%2CF).",
+                    "2": "https://academic.oup.com/cercor/article/23/10/2347/292625#:~:text=Starting%20at%20the%20superior,microdissection%20of%20the%20MdLF."
+                },
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22501.jpeg?Expires=1632423766&Signature=LLXaXfxJRSBatQKNfQ-xUDZM2uWcT-cUBOPN22iDQQZCal6v42S001DkLbjvGgQ-HfUFNfET14uhVpzhPhWCab7Nv9KuO3LEqSeqB0im3QrhNcuT7-B3BZrVO8CU47JGrbqBzTqVJdIYvkiS9xjMmk8oSIpuDAVFElZVwEwY-lv5Y3puxaxsdCbKSWgAdxbISd69WEfN30P5rjtJ3CNc6nxp8S-a-C4b46Mk1CdxNNUHMU0mEPzaPcnDLMohUGa~aoLBgmQfBLmfLQYVoZ4sobxoWfEHJxWlmB6NPfgRMJVqgfPDdVY7Rpdv-yY5CAr51W-KBGVhdeEfxvH1tBIzaA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22502.jpeg?Expires=1632423766&Signature=4H6FdspVtoUl1pdIgOs88fD36z7mF-VdI4dfw5w5MMGmWSifk0bapVLOZpY11bWQvr8Qrp5x1ePnpSzI17PK~4I6I02SaaN~mwWqV-OY6eFuk2yVjopLImTkJ-mU7NGMqo2ywsTyrJNarICQgnPT34h~qDSFvd7RTWxdQ~9PC4WrZ5nloKUglJhlckvB1FFhSax5gkPKeYHLp9ReUHhmc93r6A7q6UVXw~d9n4eivAQM1aKTo1F1L69IIOmCcTYSUn4OqQKeLVWn3eg-HDQ4Dir8TU56HRXGxmg0crFi5x3CCpg4rhmn5NmZwKFR74840hU5MPW4OnqM8HbimLtbjA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22503.jpeg?Expires=1632423766&Signature=qdBng15NxL3abBlChozR6MFrG8pplvW~kc6lJ0LBqipXwfkQA5dzONNAUwjmcoDn29VAh1OKYeSBtib-QZ8Xv2uF3ef6sdhhBCDBUq274~sHflfYuSYNoQQ28W8hoLf7mcuMZOBkDMpvcqvGKmaDft3cBOvdRym1oGZf24mzCeRTKBGVm2rKTXnzfyeqTbMgsnsNlFh7au0FtXG1vCuYMeo4E6RSfd5Y6iCiUIM0kgSfJgKIGAs-ToAF0-UpmXOU5~RGwozbqYIVFFvHOyfh1TohClKzFy2ZLip-RNvFj7dp94t0VUr4qJiI-VFMOMyyZCOiXdxKbui1gdJ9whv0bQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "4": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22504.jpeg?Expires=1632423766&Signature=Q0WPd6i1vCDf~fGTaXOqTJqayQX5WR15HyXip~gGiNVhNuClxeE~tAyMtUQPhYheOCE6iaS2YiszSG-cy01nqd1aHOEZ8fXUmkkTGOaQbkXf0yMqUBg0OKJ8U11QxkvEeukO-rjG4S1DB8GOcu8Wa-DJgFxjSlORb9Gauolr9h9HSig1fXwC3HXXwegtGoNPtp54KbGwx0WcdwcaOGD2NW~QR2ijqMe6GbRovQtxQepp76Nkra6iMQtDa~ZSWqftktK5rL9U5ZD-NhexNuqphEGjjPPRIuNlIhLkQ9O70bwITOfPwoCXyFu5jTMtO5eSjPOHN5MgxkwqZTxMZNFDcQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+                }
+            },
+            "tract2": {
+                "tractTermsUsed": {
+                    "1": "Arcuate fascicle",
+                    "2": "Arcuate fasciculus"
+                },
+                "descriptions": {
+                    "1": "https://academic.oup.com/cercor/article/23/10/2347/292625#:~:text=The%20arcuate%20fascicle%20is,to%20the%20arcuate%20fascicle.",
+                    "2": "https://academic.oup.com/cercor/article/23/10/2347/292625#:~:text=The%20arcuate%20fascicle%2C%20as,Figs.%201%20and%202)."
+                },
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22503.jpeg?Expires=1632423766&Signature=qdBng15NxL3abBlChozR6MFrG8pplvW~kc6lJ0LBqipXwfkQA5dzONNAUwjmcoDn29VAh1OKYeSBtib-QZ8Xv2uF3ef6sdhhBCDBUq274~sHflfYuSYNoQQ28W8hoLf7mcuMZOBkDMpvcqvGKmaDft3cBOvdRym1oGZf24mzCeRTKBGVm2rKTXnzfyeqTbMgsnsNlFh7au0FtXG1vCuYMeo4E6RSfd5Y6iCiUIM0kgSfJgKIGAs-ToAF0-UpmXOU5~RGwozbqYIVFFvHOyfh1TohClKzFy2ZLip-RNvFj7dp94t0VUr4qJiI-VFMOMyyZCOiXdxKbui1gdJ9whv0bQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22504.jpeg?Expires=1632423766&Signature=Q0WPd6i1vCDf~fGTaXOqTJqayQX5WR15HyXip~gGiNVhNuClxeE~tAyMtUQPhYheOCE6iaS2YiszSG-cy01nqd1aHOEZ8fXUmkkTGOaQbkXf0yMqUBg0OKJ8U11QxkvEeukO-rjG4S1DB8GOcu8Wa-DJgFxjSlORb9Gauolr9h9HSig1fXwC3HXXwegtGoNPtp54KbGwx0WcdwcaOGD2NW~QR2ijqMe6GbRovQtxQepp76Nkra6iMQtDa~ZSWqftktK5rL9U5ZD-NhexNuqphEGjjPPRIuNlIhLkQ9O70bwITOfPwoCXyFu5jTMtO5eSjPOHN5MgxkwqZTxMZNFDcQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+                }
+            },
+            "tract3": {
+                "tractTermsUsed": {
+                    "1": "External capsule"
+                },
+                "descriptions": {},
+                "figures": {
+                    "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22504.jpeg?Expires=1632423766&Signature=Q0WPd6i1vCDf~fGTaXOqTJqayQX5WR15HyXip~gGiNVhNuClxeE~tAyMtUQPhYheOCE6iaS2YiszSG-cy01nqd1aHOEZ8fXUmkkTGOaQbkXf0yMqUBg0OKJ8U11QxkvEeukO-rjG4S1DB8GOcu8Wa-DJgFxjSlORb9Gauolr9h9HSig1fXwC3HXXwegtGoNPtp54KbGwx0WcdwcaOGD2NW~QR2ijqMe6GbRovQtxQepp76Nkra6iMQtDa~ZSWqftktK5rL9U5ZD-NhexNuqphEGjjPPRIuNlIhLkQ9O70bwITOfPwoCXyFu5jTMtO5eSjPOHN5MgxkwqZTxMZNFDcQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                    "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22505.jpeg?Expires=1632423766&Signature=RKWkSNMz~AVOFV7ivq4rGiuKx4Wu6Jb7w5pvsTvBLSF1s9D8v6N7bIlx4xVGViezKIbJQT4~c8GFwFprozifBpEncl~rvxME98kCDsVZwztTPklvGXD4GeuW-~Ovb9kp-Jz~T19qkYouZm1LynBZEnsbDRsmW4ipMbPcKBWsrt7RqyGvxgqo1-xMqZ4WVAnlZ6vlXjNK1MgXvPsm9QffXxH6ZSw7PgaxKlDpgk~MhEvpGoGwo5Bghx9svKZnfR7lirtWYBzkxcf2Lk~eaOR7-fIofFBnOK~l0PnWHiCUoIswy85XnWb2-xLzHowT15NGwXjHOSA2VaJjxTVtRI4t2w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+                }
+            },
+            "tract4": {
+                "tractTermsUsed": {
+                    "1": "IFOF"
+                },
+                "descriptions": {},
+                "figures": {}
             }
         }
     },
@@ -1492,7 +2304,7 @@
                     "2": "AF"
                 },
                 "descriptions": {
-                    "1": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=The%20fibers%20of,B%20C%20D)."
+                    "1": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?#:~:text=The%20fibers%20of,B%20C%20D)."
                 },
                 "figures": {
                     "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr3.jpg",
