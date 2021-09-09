@@ -32,7 +32,8 @@ def extractGoogleHighlightLinkText(inputURL):
     #use the decode function to extract the regex components
     regexComponents=decodeGoogleHighlight(inputURL)
     #if there are two outputs then they are to be interpreted as bounds
-    if len(regexComponents)==2:
+    regexResult=[]
+    if type(regexComponents)==list:
         #get the soup output
         soup = BeautifulSoup(page.content, "html.parser")
         #interpret it ina comprehensible fashion
@@ -43,11 +44,25 @@ def extractGoogleHighlightLinkText(inputURL):
         prog = re.compile(searchFormation)
         #perform the search and extract the match result; could possibly be empty
         if prog.search(articleText) is None:
-            raise ValueError('Regex search for failed to return match; possible redirect issue')
+            regexResult ='Regex search failed to return match;\nPossible redirect issue, check host publisher\'s website'
         else:
             regexResult = prog.search(articleText).group(0)
-    elif len(regexComponents)==1:
+    elif type(regexComponents)==str:
         #if it's only one item long, its simply a text string, ...
         #no comma separating it, not to be interpreted as bounds
         regexResult=regexComponents
     return regexResult
+
+def queryImage(imageURL):
+    from PIL import Image
+    import requests
+    import io
+    #extract figure links for current tract
+    
+    returnedImg = requests.get(imageURL, stream=True)
+    if returnedImg.status_code == 200:
+        imgOut = Image.open(io.BytesIO(returnedImg.content))
+    elif returnedImg.status_code == 403:
+        imgOut=None
+        print('403 request error: forbidden by host')
+    return imgOut
