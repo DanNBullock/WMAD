@@ -1,0 +1,135 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1523/JNEUROSCI.2388-08.2008"
+    },
+    "species": {
+        "1": "Human"
+    },
+    "methods": {
+        "1": "Tractography"
+    },
+    "title": [
+        "Dissociating the Human Language Pathways with High Angular Resolution Diffusion Fiber Tractography"
+    ],
+    "author": [
+        {
+            "given": "S.",
+            "family": "Frey",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "J. S. W.",
+            "family": "Campbell",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "G. B.",
+            "family": "Pike",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "M.",
+            "family": "Petrides",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2008,
+                11,
+                5
+            ]
+        ]
+    },
+    "container-title": [
+        "Journal of Neuroscience"
+    ],
+    "publisher": "Society for Neuroscience",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "SLF"
+            },
+            "descriptions": {
+                "1": "https://www.jneurosci.org/content/28/45/11435#:~:text=It%20is%20clear,constitute%20Broca%27s%20region.",
+                "2": "https://www.jneurosci.org/content/28/45/11435#:~:text=Connections%20from%20the,inferior%20parietal%20lobule.",
+                "3": "https://www.jneurosci.org/content/28/45/11435#:~:text=Area%2044%20connections%20are%20made%20with%20the%20inferior%20parietal%20cortex%20via%20the%20third%20branch%20of%20the%20superior%20longitudinal%20fasciculus%20(SLF%20III)%20and%20area%2045%20connections%20are%20made%20with%20the%20middle%20section%20of%20the%20superior%20temporal%20gyrus%2C%20just%20in%20front%20of%20Heschl%27s%20gyrus%2C%20via%20the%20extreme%20capsule%20fiber%20system%20(ECFS)."
+            },
+            "figures": {
+                "1": "https://www.jneurosci.org/content/jneuro/28/45/11435/F6.medium.gif",
+                "2": "https://www.jneurosci.org/content/jneuro/28/45/11435/F8.medium.gif"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "ILF"
+            },
+            "descriptions": {
+                "1": "https://www.jneurosci.org/content/28/45/11435#:~:text=The%20tractography%20results%20revealed%20that%2C%20in,the%20low%20resolution%20of%20diffusion%20data."
+            },
+            "figures": {}
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "Arcuate",
+                "2": "AF"
+            },
+            "descriptions": {
+                "1": "https://www.jneurosci.org/content/28/45/11435#:~:text=It%20should%20be%20pointed,weighted%20data%20and%20Discussion).",
+                "2": "https://www.jneurosci.org/content/28/45/11435#:~:text=The%20arcuate%20connection,of%2012%20subjects."
+            },
+            "figures": {
+                "1": "https://www.jneurosci.org/content/jneuro/28/45/11435/F6.medium.gif"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "MdLF-IPL"
+            },
+            "descriptions": {
+                "1": "https://www.jneurosci.org/content/28/45/11435#:~:text=The%20tractography%20results%20revealed%20that%2C%20in,the%20low%20resolution%20of%20diffusion%20data."
+            },
+            "figures": {
+                "1": "https://www.jneurosci.org/content/jneuro/28/45/11435/F7.medium.gif"
+            }
+        },
+        "tract5": {
+            "tractTermsUsed": {
+                "1": "MdLF-SPL"
+            },
+            "descriptions": {},
+            "figures": {}
+        },
+        "tract7": {
+            "tractTermsUsed": {
+                "1": "pArc"
+            },
+            "descriptions": {},
+            "figures": {}
+        },
+        "tract8": {
+            "tractTermsUsed": {
+                "1": "ECFS",
+                "2": "Extreme capsule fiber system",
+                "3": "Extreme capsule"
+            },
+            "descriptions": {
+                "1": "https://www.jneurosci.org/content/28/45/11435#:~:text=These%20projections%20followed%20a,different%20subjects%20(Fig.%204).",
+                "2": "https://www.jneurosci.org/content/28/45/11435#:~:text=Connections%20from%20the,inferior%20parietal%20lobule.",
+                "3": "https://www.jneurosci.org/content/28/45/11435#:~:text=Area%2044%20connections%20are%20made%20with%20the%20inferior%20parietal%20cortex%20via%20the%20third%20branch%20of%20the%20superior%20longitudinal%20fasciculus%20(SLF%20III)%20and%20area%2045%20connections%20are%20made%20with%20the%20middle%20section%20of%20the%20superior%20temporal%20gyrus%2C%20just%20in%20front%20of%20Heschl%27s%20gyrus%2C%20via%20the%20extreme%20capsule%20fiber%20system%20(ECFS)."
+            },
+            "figures": {
+                "1": "https://www.jneurosci.org/content/jneuro/28/45/11435/F8.medium.gif"
+            }
+        }
+    }
+}

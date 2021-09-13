@@ -1,0 +1,66 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1227/01.neu.0000430303.56079.0e"
+    },
+    "species": {},
+    "methods": {},
+    "title": [
+        "Wernicke Perpendicular Fasciculus and Vertical Portion of the Superior Longitudinal Fasciculus"
+    ],
+    "author": [
+        {
+            "given": "Juan",
+            "family": "Martino",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Juan A.",
+            "family": "Garc\u00eda-Porrero",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2013,
+                8
+            ]
+        ]
+    },
+    "container-title": [
+        "Neurosurgery"
+    ],
+    "publisher": "Oxford University Press (OUP)",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "SLF",
+                "2": "Superior longitudinal fasciculus"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/neurosurgery/article/73/2/E382/2417758#:~:text=Specifically%2C%20the%20most,fasciculus%20(VOF)%20(Figure)."
+            },
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/neurosurgery/73/2/10.1227_01.neu.0000430303.56079.0e/2/m_neurosurgery-73-2-E382_f1.jpeg?Expires=1632754009&Signature=ZX8VBZXhGYFpg4exRYb5DgttAB-ajD1BHsv6Z3j7UfufAH4XaXFcvO9mCMfdcqbvVOWhg9eRLGNfD0JvvNuuohNiQwvCkYNhONC6FRrOTbIuQgVyaxI4eQwZMnnjh85fSNisVA0v0jLAsldLs7ukORraFR9Nctlsou3L3ZKS0~Bs13Cr3-~Jczlg10VG616OPA4yxuw7mCOWaW~pZlTv3PWt5BeuaOoxVF8IUQojYZPQN1Qd0~HdHLCoPQM2ET6Pw8lEkpOpgwzMOnAzFZRAgoMQ5Trq3zKoTZ5T-bL6cNLV0EEuxhLGE8~BlL1H0C2O2j2xZqJyZOt61sWm8rT0fg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "VOF",
+                "2": "Vertical occipital fasciculus"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/neurosurgery/article/73/2/E382/2417758#:~:text=However%2C%20the%20vertical,of%20the%20SLF.5"
+            },
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/neurosurgery/73/2/10.1227_01.neu.0000430303.56079.0e/2/m_neurosurgery-73-2-E382_f1.jpeg?Expires=1632754009&Signature=ZX8VBZXhGYFpg4exRYb5DgttAB-ajD1BHsv6Z3j7UfufAH4XaXFcvO9mCMfdcqbvVOWhg9eRLGNfD0JvvNuuohNiQwvCkYNhONC6FRrOTbIuQgVyaxI4eQwZMnnjh85fSNisVA0v0jLAsldLs7ukORraFR9Nctlsou3L3ZKS0~Bs13Cr3-~Jczlg10VG616OPA4yxuw7mCOWaW~pZlTv3PWt5BeuaOoxVF8IUQojYZPQN1Qd0~HdHLCoPQM2ET6Pw8lEkpOpgwzMOnAzFZRAgoMQ5Trq3zKoTZ5T-bL6cNLV0EEuxhLGE8~BlL1H0C2O2j2xZqJyZOt61sWm8rT0fg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        }
+    }
+}

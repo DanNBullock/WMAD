@@ -1,0 +1,158 @@
+{
+    "curator": {
+        "1": "Sylvie Bindas"
+    },
+    "doi": {
+        "1": "10.3389/fnana.2016.00040"
+    },
+    "species": {
+        "1": "human",
+        "2": "hooded seal"
+    },
+    "methods": {
+        "1": "3D-Polarized Light Imaging",
+        "2": "fiber orientation mapping"
+    },
+    "title": [
+        "Estimating Fiber Orientation Distribution Functions in 3D-Polarized Light Imaging"
+    ],
+    "author": [
+        {
+            "given": "Markus",
+            "family": "Axer",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Sven",
+            "family": "Strohmer",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "David",
+            "family": "Gr\u00e4\u00dfel",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Oliver",
+            "family": "B\u00fccker",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Melanie",
+            "family": "Dohmen",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Julia",
+            "family": "Reckfort",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Karl",
+            "family": "Zilles",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Katrin",
+            "family": "Amunts",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2016,
+                4,
+                19
+            ]
+        ]
+    },
+    "container-title": [
+        "Frontiers in Neuroanatomy"
+    ],
+    "publisher": "Frontiers Media SA",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "stratum sagittale"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2016.00040/full#:~:text=The%20overall%20fiber%20architecture%20in%20all%20regions%20of%20interest%20were%20preserved%20(Figures%206B%E2%80%93D%2C%207C%2CD)%20by%20pliODFs.%20This%20holds%20true%20for%20deep%20white%20matter%20tracts%20(e.g.%2C%20in%20the%20stratum%20sagittale%2C%20Figure%206D%2C%20or%20the%20corpus%20callosum%2C%20Figure%207D)."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/183305/fnana-10-00040-HTML/image_m/fnana-10-00040-g006.jpg"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "corpus callosum",
+                "2": "CC"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2016.00040/full#:~:text=The%20overall%20fiber%20architecture%20in%20all%20regions%20of%20interest%20were%20preserved%20(Figures%206B%E2%80%93D%2C%207C%2CD)%20by%20pliODFs.%20This%20holds%20true%20for%20deep%20white%20matter%20tracts%20(e.g.%2C%20in%20the%20stratum%20sagittale%2C%20Figure%206D%2C%20or%20the%20corpus%20callosum%2C%20Figure%207D).",
+                "2": "https://www.frontiersin.org/articles/10.3389/fnana.2016.00040/full#:~:text=Figure%207.%20Coronal,along%20the%20CC."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/183305/fnana-10-00040-HTML/image_m/fnana-10-00040-g006.jpg",
+                "2": "https://www.frontiersin.org/files/Articles/183305/fnana-10-00040-HTML/image_m/fnana-10-00040-g007.jpg"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "optic tract",
+                "2": "optic chiasm"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2016.00040/full#:~:text=FOMs%20taken%20from,Figures%205H%2CI)."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/183305/fnana-10-00040-HTML/image_m/fnana-10-00040-g005.jpg"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "arcuate fascicle",
+                "2": "AF"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2016.00040/full#:~:text=Figure%207.%20Coronal,along%20the%20CC."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/183305/fnana-10-00040-HTML/image_m/fnana-10-00040-g007.jpg"
+            }
+        },
+        "tract5": {
+            "tractTermsUsed": {
+                "1": "cingulum bundle",
+                "2": "CB"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2016.00040/full#:~:text=Figure%207.%20Coronal,along%20the%20CC."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/183305/fnana-10-00040-HTML/image_m/fnana-10-00040-g007.jpg"
+            }
+        },
+        "tract6": {
+            "tractTermsUsed": {
+                "1": "corona radiata",
+                "2": "CR"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2016.00040/full#:~:text=Figure%207.%20Coronal,along%20the%20CC."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/183305/fnana-10-00040-HTML/image_m/fnana-10-00040-g007.jpg"
+            }
+        }
+    }
+}

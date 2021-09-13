@@ -1,0 +1,66 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1227/01.neu.0000430298.25585.1d"
+    },
+    "species": {},
+    "methods": {},
+    "title": [
+        "The Temporoparietal Fiber Intersection Area and Wernicke Perpendicular Fasciculus"
+    ],
+    "author": [
+        {
+            "given": "Andreas Joachim",
+            "family": "Bartsch",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Karsten",
+            "family": "Geletneky",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Saad",
+            "family": "Jbabdi",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2013,
+                8
+            ]
+        ]
+    },
+    "container-title": [
+        "Neurosurgery"
+    ],
+    "publisher": "Oxford University Press (OUP)",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "VOF"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/neurosurgery/article/73/2/E381/2417757#:~:text=So%20if%20the,of%20faces.16"
+            },
+            "figures": {}
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "pArc"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/neurosurgery/article/73/2/E381/2417757#:~:text=According%20to%20Makris%20et%20al%2C2%20the%20only%20vertical%20component%20of%20the%20SLF%20belongs%20to%20its%20fourth%20subdivision%20(SLF%20IV)%2C%20ie%2C%20the%20vertical%20part%20of%20the%20arcuate%20fasciculus%20(AF)%2C%20which%20Martino%20et%20al1%20identify%20with%20the%20second%20fiber%20tract%20in%20the%20TPFIA."
+            },
+            "figures": {}
+        }
+    }
+}

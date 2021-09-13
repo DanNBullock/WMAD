@@ -1,0 +1,102 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1227/NEU.0b013e318274294b"
+    },
+    "species": {
+        "1": "Human"
+    },
+    "methods": {
+        "1": "Dissection",
+        "2": "DTI ",
+        "3": "Tractography"
+    },
+    "title": [
+        "Fiber Dissection and Diffusion Tensor Imaging Tractography Study of the Temporoparietal Fiber Intersection Area"
+    ],
+    "author": [
+        {
+            "given": "Juan",
+            "family": "Martino",
+            "sequence": "first",
+            "affiliation": [
+                {
+                    "name": "Department of Neurological Surgery"
+                }
+            ]
+        },
+        {
+            "given": "Rousinelle da",
+            "family": "Silva-Freitas",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Department of Neurological Surgery"
+                }
+            ]
+        },
+        {
+            "given": "Hugo",
+            "family": "Caballero",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Department of Neurological Surgery"
+                }
+            ]
+        },
+        {
+            "given": "Enrique",
+            "family": "Marco de Lucas",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Department of Radiology, Hospital Universitario Marqu\u00e9s de Valdecilla and Instituto de Formaci\u00f3n e Investigaci\u00f3n Marqu\u00e9s de Valdecilla, Santander, Cantabria, Spain"
+                }
+            ]
+        },
+        {
+            "given": "Juan A.",
+            "family": "Garc\u00eda-Porrero",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Department of Anatomy and Cellular Biology, Cantabria University, Santander, Cantabria, Spain"
+                }
+            ]
+        },
+        {
+            "given": "Alfonso",
+            "family": "V\u00e1zquez-Barquero",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Department of Neurological Surgery"
+                }
+            ]
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2012,
+                3,
+                10
+            ]
+        ]
+    },
+    "container-title": [
+        "Operative Neurosurgery"
+    ],
+    "publisher": "Oxford University Press (OUP)",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {},
+            "descriptions": {},
+            "figures": {}
+        }
+    }
+}

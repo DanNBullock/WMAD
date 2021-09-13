@@ -1,0 +1,268 @@
+{
+    "curator": {
+        "1": "Sylvie Bindas"
+    },
+    "doi": {
+        "1": "doi.org/10.3389/fnana.2017.00016"
+    },
+    "species": {
+        "1": "human"
+    },
+    "methods": {
+        "1": "MRI",
+        "2": "histology"
+    },
+    "title": [
+        "Elucidation of White Matter Tracts of the Human Amygdala by Detailed Comparison between High-Resolution Postmortem Magnetic Resonance Imaging and Histology"
+    ],
+    "author": [
+        {
+            "given": "Susumu",
+            "family": "Mori",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Yusuke",
+            "family": "Kageyama",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Zhipeng",
+            "family": "Hou",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Manisha",
+            "family": "Aggarwal",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Jaymin",
+            "family": "Patel",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Timothy",
+            "family": "Brown",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Michael I.",
+            "family": "Miller",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Dan",
+            "family": "Wu",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Juan C.",
+            "family": "Troncoso",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2017,
+                3,
+                14
+            ]
+        ]
+    },
+    "container-title": [
+        "Frontiers in Neuroanatomy"
+    ],
+    "publisher": "Frontiers Media SA",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "stria terminalis"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=The%20stria%20terminalis%20is,discrete%20and%20independent%20bundles.",
+                "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Another%20area%20of%20interest%20included%20the%20white%20matter%20at%20the%20ventral%20portion%20of%20the%20stria%20terminalis%2C%20located%20at%20the%20caudodorsal%20end%20of%20the%20amygdala%20and%20only%20partially%20assigned%20by%20conventional%20DTI%20to%20date.",
+                "3": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%201%20shows,in%20Figure%201.",
+                "4": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%204%20shows,toward%20the%20hypothalamus."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g001.jpg",
+                "2": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg",
+                "3": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g003.jpg",
+                "4": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g004.jpg",
+                "5": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g005.jpg"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "amygdalofugal pathway"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=We%20were%20especially,the%20amygdalofugal%20pathway.",
+                "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=As%20also%20shown%20in%20Figure%203%2C%20the%20amygdalofugal%20pathways%20had%20strong%20associations%20with%20the%20central%20and%20basolateral%20nuclei%2C%20in%20agreement%20with%20previous%20animal%20studies%20(Nieuwenhuys%20et%20al.%2C%201988).",
+                "3": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=In%20Figure%204D%2C%20the%20stria%20terminalis%20is%20about%20to%20complete%20the%20connection%20to%20the%20bed%20nucleus%20(BED)%2C%20and%20the%20white%20matter%20bundle%20containing%20the%20amygdalofugal%20pathway%20(asterisk)%20can%20be%20seen%20projecting%20toward%20the%20hypothalamus.",
+                "4": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%205A%20highlights,relatively%20compacted%20forms."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g003.jpg",
+                "2": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g004.jpg"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "ac",
+                "2": "anterior commissure"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus.",
+                "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=This%20area%20contained,the%20substantia%20innominata.",
+                "3": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Throughout%20these%20areas%2C%20a%20limited%20number%20of%20white%20matter%20tracts%20could%20be%20clearly%20identified%20in%20the%20in%20vivo%20images%2C%20including%20the%20anterior%20commissure%20(ac)%2C%20optic%20tract%20(ot)%20and%20the%20inferior%20fronto-occipital%20fasciculus%20(ifo).",
+                "4": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%206%20shows,et%20al.%2C%202008)."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg",
+                "2": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g005.jpg",
+                "3": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g006.jpg"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "ifo",
+                "2": "inferior fronto-occipital fasciculus"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus.",
+                "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Throughout%20these%20areas%2C%20a%20limited%20number%20of%20white%20matter%20tracts%20could%20be%20clearly%20identified%20in%20the%20in%20vivo%20images%2C%20including%20the%20anterior%20commissure%20(ac)%2C%20optic%20tract%20(ot)%20and%20the%20inferior%20fronto-occipital%20fasciculus%20(ifo)."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g001.jpg"
+            }
+        },
+        "tract4.xslx": {
+            "tractTermsUsed": {
+                "1": "ifo",
+                "2": "inferior fronto-occipital fasciculus"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus.",
+                "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Throughout%20these%20areas%2C%20a%20limited%20number%20of%20white%20matter%20tracts%20could%20be%20clearly%20identified%20in%20the%20in%20vivo%20images%2C%20including%20the%20anterior%20commissure%20(ac)%2C%20optic%20tract%20(ot)%20and%20the%20inferior%20fronto-occipital%20fasciculus%20(ifo)."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g001.jpg"
+            }
+        },
+        "tract5": {
+            "tractTermsUsed": {
+                "1": "ilf",
+                "2": "inferior longitudinal fasciculus"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g001.jpg"
+            }
+        },
+        "tract6": {
+            "tractTermsUsed": {
+                "1": "ot",
+                "2": "optic tract",
+                "3": "optic radiation"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus.",
+                "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Throughout%20these%20areas%2C%20a%20limited%20number%20of%20white%20matter%20tracts%20could%20be%20clearly%20identified%20in%20the%20in%20vivo%20images%2C%20including%20the%20anterior%20commissure%20(ac)%2C%20optic%20tract%20(ot)%20and%20the%20inferior%20fronto-occipital%20fasciculus%20(ifo).",
+                "3": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=In%20Figures%202%E2%80%935%2C%20it%20is%20clear%20that%20even%20major%20white%20matter%20bundles%2C%20such%20as%20the%20cerebral%20peduncle%20(cp)%2C%20internal%20capsule%20(ic)%20and%20optic%20radiation%20(or)%2C%20have%20highly%20complex%20microscopic%20structures."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
+            }
+        },
+        "tract6.xslx": {
+            "tractTermsUsed": {
+                "1": "ot",
+                "2": "optic tract",
+                "3": "optic radiation"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus.",
+                "2": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Throughout%20these%20areas%2C%20a%20limited%20number%20of%20white%20matter%20tracts%20could%20be%20clearly%20identified%20in%20the%20in%20vivo%20images%2C%20including%20the%20anterior%20commissure%20(ac)%2C%20optic%20tract%20(ot)%20and%20the%20inferior%20fronto-occipital%20fasciculus%20(ifo).",
+                "3": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=In%20Figures%202%E2%80%935%2C%20it%20is%20clear%20that%20even%20major%20white%20matter%20bundles%2C%20such%20as%20the%20cerebral%20peduncle%20(cp)%2C%20internal%20capsule%20(ic)%20and%20optic%20radiation%20(or)%2C%20have%20highly%20complex%20microscopic%20structures."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
+            }
+        },
+        "tract7": {
+            "tractTermsUsed": {
+                "1": "unc",
+                "2": "uncinated fasciculus"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%202.%20Coronal,unc%2C%20uncinated%20fasciculus."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
+            }
+        },
+        "tract8": {
+            "tractTermsUsed": {
+                "1": "al",
+                "2": "ansa lenticularis"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=This%20area%20contained,the%20substantia%20innominata."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
+            }
+        },
+        "tract8.xslx": {
+            "tractTermsUsed": {
+                "1": "al",
+                "2": "ansa lenticularis"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=This%20area%20contained,the%20substantia%20innominata."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g002e.jpg"
+            }
+        },
+        "tract9": {
+            "tractTermsUsed": {
+                "1": "slic",
+                "2": "sublenticular internal capsule"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%205B%20shows,internal%20capsule%20(slic)."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g005.jpg"
+            }
+        },
+        "tract9.xslx": {
+            "tractTermsUsed": {
+                "1": "slic",
+                "2": "sublenticular internal capsule"
+            },
+            "descriptions": {
+                "1": "https://www.frontiersin.org/articles/10.3389/fnana.2017.00016/full#:~:text=Figure%205B%20shows,internal%20capsule%20(slic)."
+            },
+            "figures": {
+                "1": "https://www.frontiersin.org/files/Articles/235782/fnana-11-00016-HTML/image_m/fnana-11-00016-g005.jpg"
+            }
+        }
+    }
+}

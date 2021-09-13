@@ -1,0 +1,87 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1093/brain/awg203"
+    },
+    "species": {
+        "1": "Human"
+    },
+    "methods": {
+        "1": "Tractography",
+        "2": "DT-MRI"
+    },
+    "title": [
+        "Occipito-temporal connections in the human brain"
+    ],
+    "author": [
+        {
+            "given": "M.",
+            "family": "Catani",
+            "sequence": "first",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2003,
+                9,
+                1
+            ]
+        ]
+    },
+    "container-title": [
+        "Brain"
+    ],
+    "publisher": "Oxford University Press (OUP)",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "ILF",
+                "2": "Inferior longitudinal fasciculus"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=We%20were%20able,lobes%20(Fig.%208).",
+                "2": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=pathways%20and%20ILF.-,ILF,was%20defined%20around%20the%20white%20matter%20of%20the%20occipital%20lobe.,-U%E2%80%90shaped%20fibres",
+                "3": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=We%20argue%20that%20the%20location,but%2C%20nevertheless%2C%20represent%20distinct%20pathways."
+            },
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f1.gif?Expires=1632967679&Signature=oaxwpw7Ly85odSMBhjUbW6HW4FPMMnyS0zZNQ6iBmURe4EytWnFTzyz~9kpTurm9k-2jEBiK5NmuYDwdgUOWMajzjDszShQd77y5ElwaszZ~0gQ2b4RaE9IgOopUO9~lfxckBsW7YzA-4vCO4IivyDSk25Tnae~qFpHMrOjOqmVOKp3a2cucEvoUDWOdmkxyXAPXoG98J1gbbTiYjf99KtpUDlwJhd~9SBaef5yyDF7dtPr9fkeXka6cOJuTqrMSNnC5GKJNjBsyFv1IAoazC6DleAHYWYND39JGDLcwCjmCsAoVVp9JMK9NObXQqAXap2NUEHzpWXdU-FNCaHQx9A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f2.gif?Expires=1632967679&Signature=Yc3KnPgGuBBBGrbFFVRiUYi8hPMYaKOEVb6L7k-t3E~haf0fGZePOZ7isjaiJyWRgiP3fe994f9OCHHFrltXfPAN95ZmdUuIExGptux5Fl9Xfj8ib4NMn3PCJp~eUHp-cFqSJOipMSvEvTjWsXLgZmQq4RBoagp8IevAkcYVIre~94f3nCXTWI~9pjP2bMAtQOk4b~0jfEdwhQU1hlmxJu68u8krFIbuqGaXJPaqQER2NK9CvMgVo~26YEHGvu5w8nO19ghGinb08jrCPntaRV3kmlY-g-uQPLhje5dF6mE06iSP7JOx1Mov3qJWnuPEf0oEOOuFpB9esK5gP8S4Hw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f3.gif?Expires=1632967679&Signature=lGvpU8X6nptLM5DvOu5FrobBOX9-PlbAcDgRQCi8XkSFwEBG~D~u28TtpPIysLZrZm-BjCuCjIKW7Fej6V5GomJMpY71GzjvmyEKtwPWT1-IvEgRbtS2n16o63C--CN-ZtuFpW8eqxsrAvKvpZBEhO0t3yw3hvEjwA2UwIhRZN3SZa4jjai2tJ7rpTn0UN7q5pYDjRRyiAbK5szwHlBPS4JkWuK1BS0QqarVRbukW3fHCW99u6ypNsbra4b8zNQtiSsLRYgE~2yNWFUlc0VjQGi2R5jJkHPgLo-hGDOqnroLpGV4IoZesqHeXBV-yXdHWIY0cDIB4uN9S6RcMOVMqA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "4": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f4.gif?Expires=1632967679&Signature=Qr8i7G4V8hEPrVhBjPVG6wF1Gu6eBYwYqxDTxBT6yUOp4v0ZeLjvOI03nwqvE3ROwGjeYpoG7H7L9u2lb1SqhRMX4fmCENia1WhllsTA8Dq4gFkgEfCiBHIglpXldduBbsJJ7u4UsYTId806G4o6oDazSp4Zi2JqYcK3etO2bDDZMZb7K4aes-G5unQ7iiQk9-ZtHi0hEpJUs5QgwmDA~AuY6MlDc4pIM-97RyzYjUj5JkIIRIwnFqRz1akccEBzkcl2zuhvhGiKOgMmpYULEff4759N3nmohta3MYRQmDO560aXf3KJt4~oGxRS7kO9Fx8k84~jlQnm9RXwsqWbaw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "5": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f5.gif?Expires=1632967679&Signature=v19dA5uUOTZe9IvQah4OL6XxXR2umpF0kyivqj3J83wNOjni8fyWsLrAU7FEprNySOoTa-MIyHbByvc8PkTzVQRyImp7vH5KqLWb1jPI6q6ovT-yU6Xt7P3CuE-NxiVmyeRP2Aesqb2KJ4WccnkF0Q8B0ICVafgxj-dCyP86ThW9uv45ptBEw3q0v34HorF2DGnjZNkcltyDx346MUpxXXcoGFpt30alpgVEnS1YXpkK4s4V4rpOSLHz21L-jCbjWhygp5eRPrHH4CuzeAJAgSB5aRKXQ7xRdbD3IkmnBPcmO6iCpOXP-sJgR4N2m~2SZfBkWkG4BcsjZU98hjHh5A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "6": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f6.gif?Expires=1632967679&Signature=vzI9yBEO1s34LlKyQ-ZL-ExGn1pzz~4VtqNohLFD7p6HgYGbUorZJPux6P1t2HBbygZhfNw5cuyduye-bwskfA2nlKBLW2LgL5-nveARp9LBXoJhcRZ5RguJ6KSRg~nH81X00yUWhHV29OVrw8zmvk9ceKVMV7Q62MJ6yZbRBrkm1oasFBG2eETL8b~MUoGuKcwQqR1UXrbH~oqN5fuOzZf-DilzvVnDlXO6a9TU7s8-mR0SN0hXQddhdCMBFVOkFK2Rr2eSikmW6XHSt9QvyqhNpZAePkna0iUyk17kw3Ft1hx0W7ncUzVwTNqqeVII-nygar0Kk5CABVLAw~~b2g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "7": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f7.gif?Expires=1632967679&Signature=F7BKebg4DD3XDGCPGbyWRjhkc7jSCn5z86Yh~JgGXenOa5kyuO8~0rYd2tloqji-tOny1utuHHaTtgzSFUMKJa65uAlY5C63qPrnOdPG0MECiXBcD5E~aou5HBqDiEsJPrNlc-F0juqEOhRwScqXnG8KxWSzNP8wZYKXQKZxu8ZEyc92g5aymfCJeSnlLYwbXlU~6QXi7jakC7gxiWn0NqOggXNrv54Us9Gm5rO-mKf-nqZ43llix61g4ZPWh1RoSYMio-~bLDPoXq8bpgNZMie41558VXwh5zLKymMOLrLw76twKUvRNLWbmH2t66cuXuf2~18uwpkaFDDlIV6ncA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "8": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f8.gif?Expires=1632967679&Signature=lxXaaQ5gf-aSPcpn5XHAMG2K11FpfVOSh0SjDW9PXU9O2jWCC38ngo4iTp-GwmPtCuZpfxHDIXAEk9DvU7cMgLvWRb~UROakKj6TntcZAPTou9gtBOlqzNT0zfZvdYrK18rZJ2UfQdinaX71yNJYvEPVKlSiQIf8ndN3RmvPuzg6RBgz~IkHhCnlhy0TpcpuCtZ~VViFhy~K8Pd0Gfr52Z2rSPClRqJRSfnzVOmgxxcPI4o5X6G9bl4MI6hE8VHB7DRaWlp0BjiOU1ouITd2RoDzFol3YRrs1PLnMBi0kFQGnjHSgbZeVZAmTJrp0DK7AEyUZ4j2Ee-ieVYpz2AU9Q__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "Optic nerve fibers",
+                "2": "Optic radiations"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=As%20the%20optic,upper%20calcarine%20lip.",
+                "2": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=shaped%20association%20fibres.-,Visual%20pathway,the%20first%20and%20third%20region%20to%20visualize%20the%20optic%20radiations.,-Splenial%20fibres"
+            },
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f2.gif?Expires=1632967679&Signature=Yc3KnPgGuBBBGrbFFVRiUYi8hPMYaKOEVb6L7k-t3E~haf0fGZePOZ7isjaiJyWRgiP3fe994f9OCHHFrltXfPAN95ZmdUuIExGptux5Fl9Xfj8ib4NMn3PCJp~eUHp-cFqSJOipMSvEvTjWsXLgZmQq4RBoagp8IevAkcYVIre~94f3nCXTWI~9pjP2bMAtQOk4b~0jfEdwhQU1hlmxJu68u8krFIbuqGaXJPaqQER2NK9CvMgVo~26YEHGvu5w8nO19ghGinb08jrCPntaRV3kmlY-g-uQPLhje5dF6mE06iSP7JOx1Mov3qJWnuPEf0oEOOuFpB9esK5gP8S4Hw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f3.gif?Expires=1632967679&Signature=lGvpU8X6nptLM5DvOu5FrobBOX9-PlbAcDgRQCi8XkSFwEBG~D~u28TtpPIysLZrZm-BjCuCjIKW7Fej6V5GomJMpY71GzjvmyEKtwPWT1-IvEgRbtS2n16o63C--CN-ZtuFpW8eqxsrAvKvpZBEhO0t3yw3hvEjwA2UwIhRZN3SZa4jjai2tJ7rpTn0UN7q5pYDjRRyiAbK5szwHlBPS4JkWuK1BS0QqarVRbukW3fHCW99u6ypNsbra4b8zNQtiSsLRYgE~2yNWFUlc0VjQGi2R5jJkHPgLo-hGDOqnroLpGV4IoZesqHeXBV-yXdHWIY0cDIB4uN9S6RcMOVMqA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/brain/126/9/10.1093/brain/awg203/2/m_awg203f4.gif?Expires=1632967679&Signature=Qr8i7G4V8hEPrVhBjPVG6wF1Gu6eBYwYqxDTxBT6yUOp4v0ZeLjvOI03nwqvE3ROwGjeYpoG7H7L9u2lb1SqhRMX4fmCENia1WhllsTA8Dq4gFkgEfCiBHIglpXldduBbsJJ7u4UsYTId806G4o6oDazSp4Zi2JqYcK3etO2bDDZMZb7K4aes-G5unQ7iiQk9-ZtHi0hEpJUs5QgwmDA~AuY6MlDc4pIM-97RyzYjUj5JkIIRIwnFqRz1akccEBzkcl2zuhvhGiKOgMmpYULEff4759N3nmohta3MYRQmDO560aXf3KJt4~oGxRS7kO9Fx8k84~jlQnm9RXwsqWbaw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "Forceps major"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/brain/article/126/9/2093/367492#:~:text=the%20optic%20radiations.-,Splenial%20fibres,compare%20the%20anatomical%20relationships%20of%20the%20visual%20pathways%20and%20ILF.,-ILF"
+            },
+            "figures": {}
+        }
+    }
+}

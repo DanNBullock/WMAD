@@ -1,0 +1,275 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1111/joa.12204"
+    },
+    "species": {
+        "1": "Human"
+    },
+    "methods": {
+        "1": "Dissection",
+        "2": "Tractography ",
+        "3": "Imaging"
+    },
+    "title": [
+        "Anatomo-functional study of the temporo-parieto-occipital region: dissection, tractographic and brain mapping evidence from a neurosurgical perspective"
+    ],
+    "author": [
+        {
+            "given": "Alessandro",
+            "family": "De Benedictis",
+            "sequence": "first",
+            "affiliation": [
+                {
+                    "name": "Neurosurgery Unit; Department of Neuroscience and Neurorehabilitation; Bambino Ges\u00f9 Children's Hospital; IRCCS; Roma Italy"
+                }
+            ]
+        },
+        {
+            "given": "Hugues",
+            "family": "Duffau",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Department of Neurosurgery; H\u00f4pital Gui de Chauliac; CHU Montpellier; Montpellier France"
+                },
+                {
+                    "name": "Team \u2018Plasticity of Central Nervous System; Stem Cells and Glial Tumors' INSERM U1051; Institute for Neuroscience of Montpellier; H\u00f4pital Saint Eloi; Montpellier France"
+                }
+            ]
+        },
+        {
+            "given": "Beatrice",
+            "family": "Paradiso",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Section of Human Anatomical, Histological and Cytological Pathology; Department of Diagnostic and Experimental Medicine; \u2018S. Anna\u2019 University- Hospital; Ferrara Italy"
+                }
+            ]
+        },
+        {
+            "given": "Enrico",
+            "family": "Grandi",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Section of Human Anatomical, Histological and Cytological Pathology; Department of Diagnostic and Experimental Medicine; \u2018S. Anna\u2019 University- Hospital; Ferrara Italy"
+                }
+            ]
+        },
+        {
+            "given": "Sergio",
+            "family": "Balbi",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Neurosurgery Unit; Department of Biotechnologies and Life Sciences; University of Insubria; Varese Italy"
+                }
+            ]
+        },
+        {
+            "given": "Enrico",
+            "family": "Granieri",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Section of Neurological, Psychiatrical and Psychological Sciences; Department of Biomedical and Surgical Sciences of Communication and Behavior; \u2018S. Anna\u2019 University- Hospital; Ferrara Italy"
+                }
+            ]
+        },
+        {
+            "given": "Enzo",
+            "family": "Colarusso",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Division of Neurosurgery; Department of Neurosciences; \u2018S. Chiara\u2019 Hospital; Trento Italy"
+                }
+            ]
+        },
+        {
+            "given": "Franco",
+            "family": "Chioffi",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Division of Neurosurgery; Department of Neurosciences; \u2018S. Chiara\u2019 Hospital; Trento Italy"
+                }
+            ]
+        },
+        {
+            "given": "Carlo Efisio",
+            "family": "Marras",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Neurosurgery Unit; Department of Neuroscience and Neurorehabilitation; Bambino Ges\u00f9 Children's Hospital; IRCCS; Roma Italy"
+                }
+            ]
+        },
+        {
+            "given": "Silvio",
+            "family": "Sarubbo",
+            "sequence": "additional",
+            "affiliation": [
+                {
+                    "name": "Section of Neurological, Psychiatrical and Psychological Sciences; Department of Biomedical and Surgical Sciences of Communication and Behavior; \u2018S. Anna\u2019 University- Hospital; Ferrara Italy"
+                },
+                {
+                    "name": "Division of Neurosurgery; Department of Neurosciences; \u2018S. Chiara\u2019 Hospital; Trento Italy"
+                }
+            ]
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2014,
+                6,
+                30
+            ]
+        ]
+    },
+    "container-title": [
+        "Journal of Anatomy"
+    ],
+    "publisher": "Wiley",
+    "license": [
+        {
+            "start": {
+                "date-parts": [
+                    [
+                        2014,
+                        6,
+                        30
+                    ]
+                ],
+                "date-time": "2014-06-30T00:00:00Z",
+                "timestamp": 1404086400000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1"
+        },
+        {
+            "start": {
+                "date-parts": [
+                    [
+                        2014,
+                        6,
+                        30
+                    ]
+                ],
+                "date-time": "2014-06-30T00:00:00Z",
+                "timestamp": 1404086400000
+            },
+            "content-version": "vor",
+            "delay-in-days": 0,
+            "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+        }
+    ],
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "IFOF"
+            },
+            "descriptions": {
+                "1": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=(A)%20We%20started,superior%20occipital%20gyrus."
+            },
+            "figures": {
+                "1": "https://onlinelibrary.wiley.com/cms/asset/b2e3f6e5-444a-4899-afd6-75269128043b/joa12204-fig-0005-m.png"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "Arcuate fasciculus",
+                "2": "AF"
+            },
+            "descriptions": {
+                "1": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=We%20then%20removed,and%203C%2CD%5D.",
+                "2": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=At%20a%20deeper%20level%2C%20we,hemisphere%20(Duffau%20et%C2%A0al.%202014)."
+            },
+            "figures": {
+                "1": "https://onlinelibrary.wiley.com/cms/asset/e3e38cce-71ae-4f5c-9ad5-2e0fef509b74/joa12204-fig-0003-m.png"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "Optic radiation",
+                "2": "OR"
+            },
+            "descriptions": {
+                "1": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=We%20revealed%20that,cortical%20termination%20areas."
+            },
+            "figures": {
+                "1": "https://onlinelibrary.wiley.com/cms/asset/731cbe60-1d42-4812-8fdb-428d6e051b12/joa12204-fig-0007-m.png"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "Corona radiata",
+                "2": "CR"
+            },
+            "descriptions": {
+                "1": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=Proceeding%20in%20a%20caudal-to-cranial%20direction%2C%20we%20followed%20these%20projection%20fibres%20related%20to%20the%20CR.%20We%20opened%20two%20%E2%80%98windows%E2%80%99%20along%20the%20course%20of%20the%20SLF%20within%20the%20IFG%20to%20expose%20the%20CR%20fibres%20running%20to%20the%20PreCG%20and%20post-central%20gyrus%20(PostCG%3B%20Figs%C2%A04E%20and%205)."
+            },
+            "figures": {
+                "1": "https://onlinelibrary.wiley.com/cms/asset/731cbe60-1d42-4812-8fdb-428d6e051b12/joa12204-fig-0007-m.png",
+                "2": "https://onlinelibrary.wiley.com/cms/asset/17ac8d28-30e4-43e4-86ed-b7cfb61fa2fc/joa12204-fig-0008-m.png"
+            }
+        },
+        "tract5": {
+            "tractTermsUsed": {
+                "1": "IFOF"
+            },
+            "descriptions": {
+                "1": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=Postero-superiorly%2C%20we%20identified%20the%20IFOF%20stem.%20In%20the%20middle%20part%20(middle%20trapezoid)%2C%20we%20left%20in%20situ%20the%20EC%20(Fig.%C2%A04C)",
+                "2": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=After%20removing%20the%20insular%20cortex%2C%20we,the%20temporo-basal%20region%20(Fig.%C2%A05C)."
+            },
+            "figures": {
+                "1": "https://onlinelibrary.wiley.com/cms/asset/f96b615b-03c4-4a0b-9ba6-fe23dd1f0ab8/joa12204-fig-0004-m.png",
+                "2": "https://onlinelibrary.wiley.com/cms/asset/b2e3f6e5-444a-4899-afd6-75269128043b/joa12204-fig-0005-m.png",
+                "3": "https://onlinelibrary.wiley.com/cms/asset/dc363652-6e11-4a81-a9ce-2c512e19c005/joa12204-fig-0006-m.png"
+            }
+        },
+        "tract6": {
+            "tractTermsUsed": {
+                "1": "ILF"
+            },
+            "descriptions": {
+                "1": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=At%20the%20level%20of%20the%20temporal,of%20the%20occipital%20lobe%20(Fig.%C2%A06C).",
+                "2": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=Dissection%20indicated%20that,cortices%20(Fig.%C2%A07C)."
+            },
+            "figures": {
+                "1": "https://onlinelibrary.wiley.com/cms/asset/dc363652-6e11-4a81-a9ce-2c512e19c005/joa12204-fig-0006-m.png"
+            }
+        },
+        "tract7": {
+            "tractTermsUsed": {
+                "1": "External capsule",
+                "2": "EC"
+            },
+            "descriptions": {
+                "1": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=After%20removing%20the,4E%20and%205)."
+            },
+            "figures": {
+                "1": "https://onlinelibrary.wiley.com/cms/asset/f96b615b-03c4-4a0b-9ba6-fe23dd1f0ab8/joa12204-fig-0004-m.png",
+                "2": "https://onlinelibrary.wiley.com/cms/asset/b2e3f6e5-444a-4899-afd6-75269128043b/joa12204-fig-0005-m.png"
+            }
+        },
+        "tract8": {
+            "tractTermsUsed": {
+                "1": "Uncinate fascicle"
+            },
+            "descriptions": {
+                "1": "https://onlinelibrary.wiley.com/doi/10.1111/joa.12204#:~:text=After%20removing%20the,poles%20(Fig.%C2%A04B)."
+            },
+            "figures": {
+                "1": "https://onlinelibrary.wiley.com/cms/asset/f96b615b-03c4-4a0b-9ba6-fe23dd1f0ab8/joa12204-fig-0004-m.png"
+            }
+        }
+    }
+}

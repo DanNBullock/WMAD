@@ -1,0 +1,167 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1016/j.brainres.2016.05.046"
+    },
+    "species": {
+        "1": "human"
+    },
+    "methods": {
+        "1": "Fiber dissection, DSI"
+    },
+    "title": [
+        "Tracing short connections of the temporo-parieto-occipital region in the human brain using diffusion spectrum imaging and fiber dissection"
+    ],
+    "author": [
+        {
+            "given": "Yupeng",
+            "family": "Wu",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Dandan",
+            "family": "Sun",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Yong",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Yunjie",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Yibao",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2016,
+                9
+            ]
+        ]
+    },
+    "container-title": [
+        "Brain Research"
+    ],
+    "publisher": "Elsevier BV",
+    "license": [
+        {
+            "start": {
+                "date-parts": [
+                    [
+                        2016,
+                        9,
+                        1
+                    ]
+                ],
+                "date-time": "2016-09-01T00:00:00Z",
+                "timestamp": 1472688000000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+    ],
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "Arcuate Fasciculus",
+                "2": "AF"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?#:~:text=The%20fibers%20of,B%20C%20D)."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr3.jpg",
+                "2": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr4.jpg"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "vertical occipital fasciculus",
+                "2": "VOF"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=The%20VOF%20was%20identified,the%20superior%20occipital%20lobe.",
+                "2": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=After%20removal%20of,superior%E2%80%93inferior%20direction.",
+                "3": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=As%20previously%20mentioned%2C%20VOF%20was%20located%20within%20lateral%20part%20of%20the%20occipital%20lobe%20projecting%20in%20a%20superior%E2%80%93inferior%20diffusion%20direction%2C%20posterior%20to%20the%20AF%20and%20SLF-V%2C%20anterior%20to%20the%20occipital%20pole%20and%20lateral%20to%20the%20ILF%20and%20IFOF.",
+                "4": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=There%20existed%20minimal%20contamination%20between%20the%20VOF%20and%20ILF%20(Fig.%204.A%20B).",
+                "5": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=In%20line%20with%20these%20two%20studies%2C%20our%20tractography%20results%20show%20that%20the%20VOF%20interconnects%20the%20inferior%20parietal%20with%20the%20lower%20temporal%20and%20occipital%20lobe%2C%20running%20adjacent%20and%20immediately%20superficial%20to%20the%20fibers%20of%20the%20ILF%20and%20IFOF."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr1.jpg",
+                "2": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr2.jpg",
+                "3": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr3.jpg",
+                "4": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr3.jpg",
+                "5": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr5.jpg"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "Superior longitudinal fasciculus",
+                "2": "SLF-V"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=The%20SLF-V%20originated,Fig.%201.E%20F).",
+                "2": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=We%20could%20identify%20a%20group%20of%20vertically%20oriented%20fibers%20representing%20SLF-V.%20It%20ran%20lateral%20to%20the%20AF%20and%20terminated%20at%20the%20inferior%20parietal%20lobe%20(Fig.%203.B%20C).",
+                "3": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=The%20SLF-V%20was%20situated%20superficial%20to%20the%20AF%20and%20anterior%20to%20the%20VOF%2C%20connecting%20the%20angular%20gyrus%20and%20supramarginal%20gyrus%20with%20the%20temporal%20gyrus%20(Fig.%204.C).",
+                "4": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=Interestingly%2C%20our%20tractography,supramarginal-%20SLF-V."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr1.jpg",
+                "2": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr2.jpg",
+                "3": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr3.jpg",
+                "4": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr3.jpg",
+                "5": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr5.jpg"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "Middle Longitudinal Fasciculus",
+                "2": "MdLF"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=In%20the%20core%20of%20the%20temporo-parietal%20junction%20area%2C%20the%20TP%20connection%20covered%20the%20MdLF.%20On%20lateral%20view%20of%20the%20hemisphere%20to%20observe%20the%20endpoints%2C%20the%20MdLF%20and%20IFOF%20were%20closer%20to%20the%20midline%20than%20the%20TP%20(Fig.%204%20D%20E)."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr4.jpg"
+            }
+        },
+        "tract5": {
+            "tractTermsUsed": {
+                "1": "ILF"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=There%20existed%20minimal%20contamination%20between%20the%20VOF%20and%20ILF%20(Fig.%204.A%20B)."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr4.jpg"
+            }
+        },
+        "tract6": {
+            "tractTermsUsed": {
+                "1": "IFOF"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0006899316304085?casa_token=g_fm9d1i4bgAAAAA:ecM--Go8sXr9LJ8BQSTmhX6ivyQoT4Wr_-UxLcEzC3wsNJmLYvvYnwRbnKw-kZHNo5vICcJ7dtw#:~:text=On%20lateral%20view%20of%20the%20hemisphere%20to%20observe%20the%20endpoints%2C%20the%20MdLF%20and%20IFOF%20were%20closer%20to%20the%20midline%20than%20the%20TP%20(Fig.%204%20D%20E)."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0006899316304085-gr4.jpg"
+            }
+        }
+    }
+}

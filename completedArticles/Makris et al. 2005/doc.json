@@ -1,0 +1,114 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "doi.org/10.1093/cercor/bhh186"
+    },
+    "species": {
+        "1": "Humans"
+    },
+    "methods": {
+        "1": "DT-MRI"
+    },
+    "title": [
+        "Segmentation of Subcomponents within the Superior Longitudinal Fascicle in Humans: A Quantitative, In Vivo, DT-MRI Study"
+    ],
+    "author": [
+        {
+            "given": "Nikos",
+            "family": "Makris",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "David N.",
+            "family": "Kennedy",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Sean",
+            "family": "McInerney",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "A. Gregory",
+            "family": "Sorensen",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Ruopeng",
+            "family": "Wang",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "suffix": "Jr",
+            "given": "Verne S.",
+            "family": "Caviness",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Deepak N.",
+            "family": "Pandya",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2004,
+                12,
+                8
+            ]
+        ]
+    },
+    "container-title": [
+        "Cerebral Cortex"
+    ],
+    "publisher": "Oxford University Press (OUP)",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "Superior longitudinal fascicle",
+                "2": "SLF"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=For%20SLF%20I,in%20each%20subject.",
+                "2": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=In%20the%20coronal%20plane%20SLF,of%20the%20inferior%20frontal%20gyrus.",
+                "3": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=Our%20observations%20suggest,in%20the%20human.",
+                "4": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=In%20conclusion%2C%20in,and%20audiospatial%20processing."
+            },
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f01a_h_4c.jpeg?Expires=1633023497&Signature=cfSRNzuL71EwSDqblM8SdhFGkQMxvDzg76nf1ZsoVM1RMARETkClrRkcyF-vIY57y6d1OpmFRmBqxQEH5ZZn0hsJIQU80eWD5fVKkjMb5WoV6kMooJSpPcBpckEollaOCXRxXqQKRrvGhWHKsO7qvrTCSAROOLE8WGE-Neg8RfCmO7ZQRD-48aBqu3HGydEj7eSkqii3JA7z4FssIlXF04HTVh8jhn8xtjFljENWE8qldTD1cYuxx0bobXJzIbM93sP~7U~2QKsHC6aMPozBG7nexpw4fvNgymoCtckt7R~297C8Fe8snEF7M5YXXnIK7-WwI3-ZZxAiyQ9YExCsCg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f02_4c.jpeg?Expires=1633023497&Signature=mH6mxxeClblUbaPcgasrhDLhMR3uvM0t3gvb4NRkrkqKMTgykbrbVg~emZSEY5UK2qwqfHmAvF05KkY~zTnhQUORqVetFUYow1GejhmK4zZNduFkj7nbY3mxfnGkI2SG0FpMpIQsrArelH4g-~1eWG1XQSwkfDQm6Rkr2TTCaiXdxORyrPJDakwn8hltwGRZar0-HEqd5j40LMM9hYhn-zoFMWOMBTLJsPlqRvGB0HTrt9-vw9zJEx8lIaSjmeDcO8bTHbcuF6UvxUKLCX1lCvVTbdD~0MBMYbvcMan9hL6gZT-VsKY6OV1G3gMBmUpmr7BvwPGllXcxlDa8zI74VA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f03_4c.jpeg?Expires=1633023497&Signature=SYFef152Pcs~kKd2cCp1Etak5QSZkMH3V1G9tkSMeCm4gn2ZsR~vnblRST4nep-5GbziDtODvBrqXSEBnPvLoIQ890RbR6sWftFqN~FN1dkGwHppClUi0ESk3xzSP2SHFnNc0tEcDsB9H8Dmtb3PNNdQ2WP65ISrSTqXWA1u0AcrN6nVC5g8RVUGIWzhsmrNGl1zzaw6zOJiFqxN6W9uzqxkN08LnsCruJeAOjYA51xni5HrIaiUm5a39fTtya2Q~nI4lJl4KrKxst6Xi~mMwtvsPYbzXSXl25p2fMwS5u1oQjJ6h2pCUdGG~BJZSqIrGyWu1t7awoEZ5MTQY~4c6g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "4": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f04_4c.jpeg?Expires=1633023497&Signature=rbAELgfqQe6uAUfBA1q6IfeT5njUJmHWHXEDwPBTMlEafAjXQL6B276-tPtFuOL-0kvNEO6GjK4An8mudZWVH0HVfeKmNVDcgTk1etYGO7CglAFONgPeR85fuTgSeF-JITdzklyDSb04fLZgj5L8M9eUtSU8P4lyxz9SVodNQ9gEy9J49-5X2RHOLrCTC64L7sMIEljqJCjCJRzptaEtI0Xb-n4mc4ALT9j8E-oqaTctDxAh3KMT8CN3aMCD7cPQ9rXKqCyNYv-nuAeH9AEpcS37egheheR1UlOGftXeulbwgUNqyPcjn5OWnNHJn5gNAKETBx3u9R2I5pvGSoEkvA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "5": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f05_4c.jpeg?Expires=1633023497&Signature=c9cbr3Qscc8u8D0YhEJDq0w9PW4XzhF7ZDBl~s3geBk3YusKZdovXI3I1BhvZEHhpW5gDvykXNQmGXa92mkVlbR3pNPcKgyMAVgt9uKMGsuiM4TpfDzJhRnQlNkzx6pSiezOsfOlCSGo1NIk7BM5rc10aaIEGytKHgWhnnwnXDxvSmqQmBG6QIqkYwRICNDWzs1za8JKCIZ1n1qESh8Ze1DII9PfXL3jh9pYn4fw6FVoinKBNEjO0HdpwbTUe2r27M~lOMxYUenMXKpLoEpsS0h3BysBC-vqPPS2Yll1yJqx2KBJHTMnqndTgSOQDg8HAW7Xkpx8jhy-QBHbnfMlgg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "6": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f06_4c.jpeg?Expires=1633023497&Signature=ntoVGLzWP4EhxWEjQ9pOSIQExZQeOD22KuKRVg~oRd-aYFYDrt2Ck3n7hJVdDkK2ct~-UB9D9jBzbDpzV33lKi0o03WczYFLFHMEUP5COkVILqsGbrTeZyJhLTQoMYolpRtfNEsEY8qFkRybQQiPD~A4dhxtGOZK9xDPhKh1NQiqpHg63HkXMnS~1SYybkcixJBx~c17fI0hTFUTXvwKdKZ150ltRU5ba~bIQDygaPiqqbbgFBNlRJ6kadTYT~Dy971Jm-7~7Sdav1oI4zqHeqePZD~PvLPbpJDozGKTIrDaTo8yYgQ9RFzmpzhWfev708UGk86VRo3JWKnV3G5K3A__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "AF",
+                "2": "AFv",
+                "3": "AFh"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/cercor/article/15/6/854/495658#:~:text=The%20horizontal%20part%20of%20the%20arcuate%20fascicle%20(AFh,vertical%20in%20nature%20(Figs%201%2C%202%2C%203B%2CD)."
+            },
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f01a_h_4c.jpeg?Expires=1633023497&Signature=cfSRNzuL71EwSDqblM8SdhFGkQMxvDzg76nf1ZsoVM1RMARETkClrRkcyF-vIY57y6d1OpmFRmBqxQEH5ZZn0hsJIQU80eWD5fVKkjMb5WoV6kMooJSpPcBpckEollaOCXRxXqQKRrvGhWHKsO7qvrTCSAROOLE8WGE-Neg8RfCmO7ZQRD-48aBqu3HGydEj7eSkqii3JA7z4FssIlXF04HTVh8jhn8xtjFljENWE8qldTD1cYuxx0bobXJzIbM93sP~7U~2QKsHC6aMPozBG7nexpw4fvNgymoCtckt7R~297C8Fe8snEF7M5YXXnIK7-WwI3-ZZxAiyQ9YExCsCg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f02_4c.jpeg?Expires=1633023497&Signature=mH6mxxeClblUbaPcgasrhDLhMR3uvM0t3gvb4NRkrkqKMTgykbrbVg~emZSEY5UK2qwqfHmAvF05KkY~zTnhQUORqVetFUYow1GejhmK4zZNduFkj7nbY3mxfnGkI2SG0FpMpIQsrArelH4g-~1eWG1XQSwkfDQm6Rkr2TTCaiXdxORyrPJDakwn8hltwGRZar0-HEqd5j40LMM9hYhn-zoFMWOMBTLJsPlqRvGB0HTrt9-vw9zJEx8lIaSjmeDcO8bTHbcuF6UvxUKLCX1lCvVTbdD~0MBMYbvcMan9hL6gZT-VsKY6OV1G3gMBmUpmr7BvwPGllXcxlDa8zI74VA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f03_4c.jpeg?Expires=1633023497&Signature=SYFef152Pcs~kKd2cCp1Etak5QSZkMH3V1G9tkSMeCm4gn2ZsR~vnblRST4nep-5GbziDtODvBrqXSEBnPvLoIQ890RbR6sWftFqN~FN1dkGwHppClUi0ESk3xzSP2SHFnNc0tEcDsB9H8Dmtb3PNNdQ2WP65ISrSTqXWA1u0AcrN6nVC5g8RVUGIWzhsmrNGl1zzaw6zOJiFqxN6W9uzqxkN08LnsCruJeAOjYA51xni5HrIaiUm5a39fTtya2Q~nI4lJl4KrKxst6Xi~mMwtvsPYbzXSXl25p2fMwS5u1oQjJ6h2pCUdGG~BJZSqIrGyWu1t7awoEZ5MTQY~4c6g__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "4": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/15/6/10.1093/cercor/bhh186/2/m_cercorbhh186f04_4c.jpeg?Expires=1633023497&Signature=rbAELgfqQe6uAUfBA1q6IfeT5njUJmHWHXEDwPBTMlEafAjXQL6B276-tPtFuOL-0kvNEO6GjK4An8mudZWVH0HVfeKmNVDcgTk1etYGO7CglAFONgPeR85fuTgSeF-JITdzklyDSb04fLZgj5L8M9eUtSU8P4lyxz9SVodNQ9gEy9J49-5X2RHOLrCTC64L7sMIEljqJCjCJRzptaEtI0Xb-n4mc4ALT9j8E-oqaTctDxAh3KMT8CN3aMCD7cPQ9rXKqCyNYv-nuAeH9AEpcS37egheheR1UlOGftXeulbwgUNqyPcjn5OWnNHJn5gNAKETBx3u9R2I5pvGSoEkvA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        }
+    }
+}

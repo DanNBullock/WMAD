@@ -1,0 +1,159 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1016/j.neuroscience.2014.07.035"
+    },
+    "species": {
+        "1": "Human"
+    },
+    "methods": {
+        "1": "Tractography"
+    },
+    "title": [
+        "Decoding the superior parietal lobule connections of the superior longitudinal fasciculus/arcuate fasciculus in the human brain"
+    ],
+    "author": [
+        {
+            "given": "A.",
+            "family": "Kamali",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "H.I.",
+            "family": "Sair",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "A.",
+            "family": "Radmanesh",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "K.M.",
+            "family": "Hasan",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2014,
+                9
+            ]
+        ]
+    },
+    "container-title": [
+        "Neuroscience"
+    ],
+    "publisher": "Elsevier BV",
+    "license": [
+        {
+            "start": {
+                "date-parts": [
+                    [
+                        2014,
+                        9,
+                        1
+                    ]
+                ],
+                "date-time": "2014-09-01T00:00:00Z",
+                "timestamp": 1409529600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+        }
+    ],
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "Superior longitudinal fasciculus"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "Arcuate fasciculus",
+                "2": "AF"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083#:~:text=The%20AF%20is,44%20and%2045)."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "Middle longitudinal fasciculus",
+                "2": "MDLF-IPL"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083#:~:text=Accounted%20as%20the,SPL%20(BA%207)."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg",
+                "2": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr2.jpg",
+                "3": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr3.jpg"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "Middle longitudinal fasciculus",
+                "2": "MDLF-SPL"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083#:~:text=Accounted%20as%20the,SPL%20(BA%207).",
+                "2": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=In%20our%20experience%2C%20at,subjects%20in%20future%20studies."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg"
+            }
+        },
+        "tract5": {
+            "tractTermsUsed": {
+                "1": "Cing"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr1.jpg"
+            }
+        },
+        "tract6": {
+            "tractTermsUsed": {
+                "1": "TP-SPL",
+                "2": "SLF/AF TP-SPL"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=The%20trajectory%20of%20the%20TP-SPL%20has,the%20superior%20temporal%20gyrus%20(BA%2022%2C%2042).",
+                "2": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=In%20the%20current%20study%20we%20demonstrate,into%20the%20superior%20or%20IPL%20connections.",
+                "3": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=In%20our%20experience%2C%20at,subjects%20in%20future%20studies.",
+                "4": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=The%20TP-SPL%20(yellow%20arrows%20in,in%20humans%20compared%20with%20other%20primates."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr3.jpg"
+            }
+        },
+        "tract7": {
+            "tractTermsUsed": {
+                "1": "TP-IPL",
+                "2": "SLF/AF TP-IPL"
+            },
+            "descriptions": {
+                "1": "https://www.sciencedirect.com/science/article/pii/S0306452214006083?via%3Dihub#:~:text=Considered%20as%20the%20posterior%20temporoparietal,black%20arrows%20in%20Fig.%203)."
+            },
+            "figures": {
+                "1": "https://ars.els-cdn.com/content/image/1-s2.0-S0306452214006083-gr3.jpg"
+            }
+        }
+    }
+}

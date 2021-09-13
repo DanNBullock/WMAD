@@ -1,0 +1,211 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1007/s00429-012-0498-y"
+    },
+    "species": {
+        "1": "human"
+    },
+    "methods": {
+        "1": "Diffusion tensor tractography"
+    },
+    "title": [
+        "Tracing superior longitudinal fasciculus connectivity in the human brain using high resolution diffusion tensor tractography"
+    ],
+    "author": [
+        {
+            "given": "Arash",
+            "family": "Kamali",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Adam E.",
+            "family": "Flanders",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Joshua",
+            "family": "Brody",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Jill V.",
+            "family": "Hunter",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Khader M.",
+            "family": "Hasan",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2013,
+                1,
+                4
+            ]
+        ]
+    },
+    "container-title": [
+        "Brain Structure and Function"
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "license": [
+        {
+            "start": {
+                "date-parts": [
+                    [
+                        2013,
+                        1,
+                        4
+                    ]
+                ],
+                "date-time": "2013-01-04T00:00:00Z",
+                "timestamp": 1357257600000
+            },
+            "content-version": "tdm",
+            "delay-in-days": 0,
+            "URL": "http://www.springer.com/tdm"
+        }
+    ],
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "Superior longitudinal fasciculus",
+                "2": "SLF"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=In%20the%20coronal%20plane%2C%20the%20SLF%20I%20(Fig.%C2%A01a)%20is%20first%20delineated%20over%20the%20green%20association%20bundles%20just%20superolateral%20to%20the%20cingulum%20on%20the%20DTI%20color-coded%20map%20at%20the%20most%20posterior%20part%20of%20the%20corpus%20callosum%20(coronal%20plane%20c%20on%20Fig.%C2%A02).",
+                "2": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=Superior%20longitudinal%20fasciculus%20one,4a%E2%80%93l%2C%205a%E2%80%93d).",
+                "3": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=The%20SLF%20TP%20fibers,Figs.%C2%A04h%2C%205c%E2%80%93d)."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig1_HTML.jpg?as=webp",
+                "2": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig1_HTML.jpg?as=webp",
+                "3": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig3_HTML.jpg?as=webp",
+                "4": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig4_HTML.jpg?as=webp",
+                "5": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig5_HTML.jpg?as=webp"
+            }
+        },
+        "tract10": {
+            "tractTermsUsed": {
+                "1": "UF"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig4_HTML.jpg?as=webp"
+            }
+        },
+        "tract11": {
+            "tractTermsUsed": {
+                "1": "MdLF-IPL"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=The%20red%20fibers,and%205a%E2%80%93e).",
+                "2": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=In%20the%20temporal%20lobe%20the%20MdLF-SPL%20(orange)%20is%20coursing%20above%20the%20MdLF-IPL%20(red%20color%20in%20the%20superior%20temporal%20gyrus)%20and%20the%20ILF%20(dark%20blue%20in%20the%20inferior%20temporal%20gyrus).",
+                "3": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=The%20MdLF-IPL%20(red)%20courses%20above%20the%20ILF%20(dark%20blue)%20in%20the%20temporoparietal%20lobes%20and%20both%20course%20toward%20the%20occipital%20cortices%20(Fig.%C2%A05a%E2%80%93e)."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig1_HTML.jpg?as=webp",
+                "2": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig3_HTML.jpg?as=webp",
+                "3": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig4_HTML.jpg?as=webp",
+                "4": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig5_HTML.jpg?as=webp"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "MdLF-SPL"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=The%20orange%20fibers,j%2C%205a%E2%80%93d).",
+                "2": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=The%20MdLF-SPL%20is,parietal%20cortex%20(BA%207).",
+                "3": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=The%20SLF%20TP%20is%20also%20seen%20to%20ascend%20along%20with%20the%20MdLF-SPL%20(orange)%20to%20the%20superior%20parietal%20cortex."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig1_HTML.jpg?as=webp",
+                "2": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig3_HTML.jpg?as=webp",
+                "3": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig4_HTML.jpg?as=webp",
+                "4": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig5_HTML.jpg?as=webp"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "AF"
+            },
+            "descriptions": {
+                "1": "https://link.springer.com/article/10.1007/s00429-012-0498-y#:~:text=The%20arcuate%20fasciculus%20is%20part,prefrontal%20cortex%20(Fig.%C2%A05c%E2%80%93e)."
+            },
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig1_HTML.jpg?as=webp",
+                "2": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig5_HTML.jpg?as=webp"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "IPL"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig1_HTML.jpg?as=webp"
+            }
+        },
+        "tract5": {
+            "tractTermsUsed": {
+                "1": "SPL"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig1_HTML.jpg?as=webp"
+            }
+        },
+        "tract6": {
+            "tractTermsUsed": {
+                "1": "ILF"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig3_HTML.jpg?as=webp",
+                "2": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig5_HTML.jpg?as=webp"
+            }
+        },
+        "tract7": {
+            "tractTermsUsed": {
+                "1": "Cingulum",
+                "2": "Cing"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig1_HTML.jpg?as=webp",
+                "2": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig4_HTML.jpg?as=webp",
+                "3": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig5_HTML.jpg?as=webp"
+            }
+        },
+        "tract8": {
+            "tractTermsUsed": {
+                "1": "IFOF"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig4_HTML.jpg?as=webp"
+            }
+        },
+        "tract9": {
+            "tractTermsUsed": {
+                "1": "EmC"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs00429-012-0498-y/MediaObjects/429_2012_498_Fig4_HTML.jpg?as=webp"
+            }
+        }
+    }
+}

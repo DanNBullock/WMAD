@@ -1,0 +1,120 @@
+{
+    "curator": {
+        "1": "Elena Hayday"
+    },
+    "doi": {
+        "1": "10.1093/cercor/bhs225"
+    },
+    "species": {
+        "1": "Human"
+    },
+    "methods": {
+        "1": "Tractography",
+        "2": "Microdissection",
+        "3": "DSI"
+    },
+    "title": [
+        "Rethinking the Role of the Middle Longitudinal Fascicle in Language and Auditory Pathways"
+    ],
+    "author": [
+        {
+            "given": "Yibao",
+            "family": "Wang",
+            "sequence": "first",
+            "affiliation": []
+        },
+        {
+            "given": "Juan C.",
+            "family": "Fern\u00e1ndez-Miranda",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Timothy",
+            "family": "Verstynen",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Sudhir",
+            "family": "Pathak",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Walter",
+            "family": "Schneider",
+            "sequence": "additional",
+            "affiliation": []
+        },
+        {
+            "given": "Fang-Cheng",
+            "family": "Yeh",
+            "sequence": "additional",
+            "affiliation": []
+        }
+    ],
+    "published": {
+        "date-parts": [
+            [
+                2012,
+                8,
+                8
+            ]
+        ]
+    },
+    "container-title": [
+        "Cerebral Cortex"
+    ],
+    "publisher": "Oxford University Press (OUP)",
+    "license": "unknown",
+    "tractDepictions": {
+        "tract1": {
+            "tractTermsUsed": {
+                "1": "Middle longitudinal fasciculus",
+                "2": "MdLF"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/cercor/article/23/10/2347/292625#:~:text=In%20coronal%20and%20axial%20views%2C%20it%20can%20be%20clearly%20noticed%20that%20the%20MdLF%20makes%20a%20wide-angle%20turn%20at%20the%20temporoparietal%20junction%20that%20redirects%20the%20trajectory%20of%20the%20fibers%20from%20anterolateral%20(temporal%20region)%20to%20posteromedial%20(parietal%20region)%20(Fig.%C2%A01E%2CF).",
+                "2": "https://academic.oup.com/cercor/article/23/10/2347/292625#:~:text=Starting%20at%20the%20superior,microdissection%20of%20the%20MdLF."
+            },
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22501.jpeg?Expires=1632423766&Signature=LLXaXfxJRSBatQKNfQ-xUDZM2uWcT-cUBOPN22iDQQZCal6v42S001DkLbjvGgQ-HfUFNfET14uhVpzhPhWCab7Nv9KuO3LEqSeqB0im3QrhNcuT7-B3BZrVO8CU47JGrbqBzTqVJdIYvkiS9xjMmk8oSIpuDAVFElZVwEwY-lv5Y3puxaxsdCbKSWgAdxbISd69WEfN30P5rjtJ3CNc6nxp8S-a-C4b46Mk1CdxNNUHMU0mEPzaPcnDLMohUGa~aoLBgmQfBLmfLQYVoZ4sobxoWfEHJxWlmB6NPfgRMJVqgfPDdVY7Rpdv-yY5CAr51W-KBGVhdeEfxvH1tBIzaA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22502.jpeg?Expires=1632423766&Signature=4H6FdspVtoUl1pdIgOs88fD36z7mF-VdI4dfw5w5MMGmWSifk0bapVLOZpY11bWQvr8Qrp5x1ePnpSzI17PK~4I6I02SaaN~mwWqV-OY6eFuk2yVjopLImTkJ-mU7NGMqo2ywsTyrJNarICQgnPT34h~qDSFvd7RTWxdQ~9PC4WrZ5nloKUglJhlckvB1FFhSax5gkPKeYHLp9ReUHhmc93r6A7q6UVXw~d9n4eivAQM1aKTo1F1L69IIOmCcTYSUn4OqQKeLVWn3eg-HDQ4Dir8TU56HRXGxmg0crFi5x3CCpg4rhmn5NmZwKFR74840hU5MPW4OnqM8HbimLtbjA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "3": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22503.jpeg?Expires=1632423766&Signature=qdBng15NxL3abBlChozR6MFrG8pplvW~kc6lJ0LBqipXwfkQA5dzONNAUwjmcoDn29VAh1OKYeSBtib-QZ8Xv2uF3ef6sdhhBCDBUq274~sHflfYuSYNoQQ28W8hoLf7mcuMZOBkDMpvcqvGKmaDft3cBOvdRym1oGZf24mzCeRTKBGVm2rKTXnzfyeqTbMgsnsNlFh7au0FtXG1vCuYMeo4E6RSfd5Y6iCiUIM0kgSfJgKIGAs-ToAF0-UpmXOU5~RGwozbqYIVFFvHOyfh1TohClKzFy2ZLip-RNvFj7dp94t0VUr4qJiI-VFMOMyyZCOiXdxKbui1gdJ9whv0bQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "4": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22504.jpeg?Expires=1632423766&Signature=Q0WPd6i1vCDf~fGTaXOqTJqayQX5WR15HyXip~gGiNVhNuClxeE~tAyMtUQPhYheOCE6iaS2YiszSG-cy01nqd1aHOEZ8fXUmkkTGOaQbkXf0yMqUBg0OKJ8U11QxkvEeukO-rjG4S1DB8GOcu8Wa-DJgFxjSlORb9Gauolr9h9HSig1fXwC3HXXwegtGoNPtp54KbGwx0WcdwcaOGD2NW~QR2ijqMe6GbRovQtxQepp76Nkra6iMQtDa~ZSWqftktK5rL9U5ZD-NhexNuqphEGjjPPRIuNlIhLkQ9O70bwITOfPwoCXyFu5jTMtO5eSjPOHN5MgxkwqZTxMZNFDcQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        },
+        "tract2": {
+            "tractTermsUsed": {
+                "1": "Arcuate fascicle",
+                "2": "Arcuate fasciculus"
+            },
+            "descriptions": {
+                "1": "https://academic.oup.com/cercor/article/23/10/2347/292625#:~:text=The%20arcuate%20fascicle%20is,to%20the%20arcuate%20fascicle.",
+                "2": "https://academic.oup.com/cercor/article/23/10/2347/292625#:~:text=The%20arcuate%20fascicle%2C%20as,Figs.%201%20and%202)."
+            },
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22503.jpeg?Expires=1632423766&Signature=qdBng15NxL3abBlChozR6MFrG8pplvW~kc6lJ0LBqipXwfkQA5dzONNAUwjmcoDn29VAh1OKYeSBtib-QZ8Xv2uF3ef6sdhhBCDBUq274~sHflfYuSYNoQQ28W8hoLf7mcuMZOBkDMpvcqvGKmaDft3cBOvdRym1oGZf24mzCeRTKBGVm2rKTXnzfyeqTbMgsnsNlFh7au0FtXG1vCuYMeo4E6RSfd5Y6iCiUIM0kgSfJgKIGAs-ToAF0-UpmXOU5~RGwozbqYIVFFvHOyfh1TohClKzFy2ZLip-RNvFj7dp94t0VUr4qJiI-VFMOMyyZCOiXdxKbui1gdJ9whv0bQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22504.jpeg?Expires=1632423766&Signature=Q0WPd6i1vCDf~fGTaXOqTJqayQX5WR15HyXip~gGiNVhNuClxeE~tAyMtUQPhYheOCE6iaS2YiszSG-cy01nqd1aHOEZ8fXUmkkTGOaQbkXf0yMqUBg0OKJ8U11QxkvEeukO-rjG4S1DB8GOcu8Wa-DJgFxjSlORb9Gauolr9h9HSig1fXwC3HXXwegtGoNPtp54KbGwx0WcdwcaOGD2NW~QR2ijqMe6GbRovQtxQepp76Nkra6iMQtDa~ZSWqftktK5rL9U5ZD-NhexNuqphEGjjPPRIuNlIhLkQ9O70bwITOfPwoCXyFu5jTMtO5eSjPOHN5MgxkwqZTxMZNFDcQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        },
+        "tract3": {
+            "tractTermsUsed": {
+                "1": "External capsule"
+            },
+            "descriptions": {},
+            "figures": {
+                "1": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22504.jpeg?Expires=1632423766&Signature=Q0WPd6i1vCDf~fGTaXOqTJqayQX5WR15HyXip~gGiNVhNuClxeE~tAyMtUQPhYheOCE6iaS2YiszSG-cy01nqd1aHOEZ8fXUmkkTGOaQbkXf0yMqUBg0OKJ8U11QxkvEeukO-rjG4S1DB8GOcu8Wa-DJgFxjSlORb9Gauolr9h9HSig1fXwC3HXXwegtGoNPtp54KbGwx0WcdwcaOGD2NW~QR2ijqMe6GbRovQtxQepp76Nkra6iMQtDa~ZSWqftktK5rL9U5ZD-NhexNuqphEGjjPPRIuNlIhLkQ9O70bwITOfPwoCXyFu5jTMtO5eSjPOHN5MgxkwqZTxMZNFDcQ__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA",
+                "2": "https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/cercor/23/10/10.1093_cercor_bhs225/2/m_bhs22505.jpeg?Expires=1632423766&Signature=RKWkSNMz~AVOFV7ivq4rGiuKx4Wu6Jb7w5pvsTvBLSF1s9D8v6N7bIlx4xVGViezKIbJQT4~c8GFwFprozifBpEncl~rvxME98kCDsVZwztTPklvGXD4GeuW-~Ovb9kp-Jz~T19qkYouZm1LynBZEnsbDRsmW4ipMbPcKBWsrt7RqyGvxgqo1-xMqZ4WVAnlZ6vlXjNK1MgXvPsm9QffXxH6ZSw7PgaxKlDpgk~MhEvpGoGwo5Bghx9svKZnfR7lirtWYBzkxcf2Lk~eaOR7-fIofFBnOK~l0PnWHiCUoIswy85XnWb2-xLzHowT15NGwXjHOSA2VaJjxTVtRI4t2w__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA"
+            }
+        },
+        "tract4": {
+            "tractTermsUsed": {
+                "1": "IFOF"
+            },
+            "descriptions": {},
+            "figures": {}
+        }
+    }
+}
