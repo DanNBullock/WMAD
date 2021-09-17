@@ -10,6 +10,7 @@ Cataloging accounts of white matter tracts and their anatomy throughout the lite
 ### Contributors/Curators
 
 Elena Hayday
+
 Sylvia Bindas
 
 ### PI
