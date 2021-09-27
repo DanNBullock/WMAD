@@ -1,5 +1,5 @@
-jupyter contrib nbextension install --user
-jupyter nbextension enable --py --sys-prefix widgetsnbextension
+jupyter contrib nbextension install --sys-prefix
+jupyter nbextension enable --py --sys-prefix  widgetsnbextension
+jupyter nbextension enable --py --sys-prefix  qgrid
 jupyter labextension install @jupyter-widgets/jupyterlab-manager --minimize=False
 jupyter labextension install qgrid2
-jupyter nbextension enable --py --sys-prefix qgrid
