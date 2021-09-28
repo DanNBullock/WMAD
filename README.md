@@ -2,6 +2,8 @@
 White Matter Anatomy Database
 Cataloging accounts of white matter tracts and their anatomy throughout the literature.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DanNBullock/WMAD/main?filepath=Notebooks%2FInteract_With_WMAD.ipynb)
+
 ## Production Info
 
 ### Author
