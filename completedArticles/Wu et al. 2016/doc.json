@@ -76,6 +76,7 @@
             "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
         }
     ],
+    "PMDinfo": "error",
     "tractDepictions": {
         "tract1": {
             "tractTermsUsed": {

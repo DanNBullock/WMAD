@@ -80,6 +80,17 @@
     ],
     "publisher": "Frontiers Media SA",
     "license": "unknown",
+    "PMDinfo": {
+        "pmcid": "PMC4835454",
+        "pmid": "27147981",
+        "doi": "10.3389/fnana.2016.00040",
+        "versions": [
+            {
+                "pmcid": "PMC4835454.1",
+                "current": "true"
+            }
+        ]
+    },
     "tractDepictions": {
         "tract1": {
             "tractTermsUsed": {

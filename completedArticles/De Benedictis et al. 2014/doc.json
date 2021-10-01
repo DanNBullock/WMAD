@@ -171,6 +171,17 @@
             "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
         }
     ],
+    "PMDinfo": {
+        "pmcid": "PMC4111924",
+        "pmid": "24975421",
+        "doi": "10.1111/joa.12204",
+        "versions": [
+            {
+                "pmcid": "PMC4111924.1",
+                "current": "true"
+            }
+        ]
+    },
     "tractDepictions": {
         "tract1": {
             "tractTermsUsed": {

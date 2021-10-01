@@ -81,6 +81,17 @@
         ],
         "publisher": "Frontiers Media SA",
         "license": "unknown",
+        "PMDinfo": {
+            "pmcid": "PMC4835454",
+            "pmid": "27147981",
+            "doi": "10.3389/fnana.2016.00040",
+            "versions": [
+                {
+                    "pmcid": "PMC4835454.1",
+                    "current": "true"
+                }
+            ]
+        },
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -202,6 +213,7 @@
         ],
         "publisher": "Oxford University Press (OUP)",
         "license": "unknown",
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -334,6 +346,7 @@
                 "URL": "http://www.springer.com/tdm"
             }
         ],
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -542,6 +555,7 @@
         ],
         "publisher": "Oxford University Press (OUP)",
         "license": "unknown",
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -763,6 +777,17 @@
                 "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
             }
         ],
+        "PMDinfo": {
+            "pmcid": "PMC4111924",
+            "pmid": "24975421",
+            "doi": "10.1111/joa.12204",
+            "versions": [
+                {
+                    "pmcid": "PMC4111924.1",
+                    "current": "true"
+                }
+            ]
+        },
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -921,6 +946,17 @@
         ],
         "publisher": "Society for Neuroscience",
         "license": "unknown",
+        "PMDinfo": {
+            "pmcid": "PMC6671318",
+            "pmid": "18987180",
+            "doi": "10.1523/JNEUROSCI.2388-08.2008",
+            "versions": [
+                {
+                    "pmcid": "PMC6671318.1",
+                    "current": "true"
+                }
+            ]
+        },
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -1079,6 +1115,18 @@
                 "URL": "http://www.springer.com/tdm"
             }
         ],
+        "PMDinfo": {
+            "pmcid": "PMC3633629",
+            "pmid": "23288254",
+            "doi": "10.1007/s00429-012-0498-y",
+            "versions": [
+                {
+                    "pmcid": "PMC3633629.1",
+                    "mid": "NIHMS432932",
+                    "current": "true"
+                }
+            ]
+        },
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -1283,6 +1331,7 @@
                 "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
             }
         ],
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -1370,12 +1419,12 @@
             }
         }
     },
-    "doi-org_10-1093_cercor_bhh186": {
+    "10-1093_cercor_bhh186": {
         "curator": {
             "1": "Elena Hayday"
         },
         "doi": {
-            "1": "doi.org/10.1093/cercor/bhh186"
+            "1": "10.1093/cercor/bhh186"
         },
         "species": {
             "1": "Humans"
@@ -1445,6 +1494,7 @@
         ],
         "publisher": "Oxford University Press (OUP)",
         "license": "unknown",
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -1484,12 +1534,12 @@
             }
         }
     },
-    "doi-org_10-1093_cercor_bhn124": {
+    "10-1093_cercor_bhn124": {
         "curator": {
             "1": "Sylvie Bindas"
         },
         "doi": {
-            "1": "doi.org/10.1093/cercor/bhn124"
+            "1": "10.1093/cercor/bhn124"
         },
         "species": {
             "1": "human"
@@ -1554,6 +1604,17 @@
         ],
         "publisher": "Oxford University Press (OUP)",
         "license": "unknown",
+        "PMDinfo": {
+            "pmcid": "PMC2651473",
+            "pmid": "18669591",
+            "doi": "10.1093/cercor/bhn124",
+            "versions": [
+                {
+                    "pmcid": "PMC2651473.1",
+                    "current": "true"
+                }
+            ]
+        },
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -1585,53 +1646,7 @@
                     "8": "https://academic.oup.com/view-large/figure/3464177/cercorbhn124f08_4c.jpeg"
                 }
             },
-            "tract1.xslx": {
-                "tractTermsUsed": {
-                    "1": "middle longitudinal fascicle",
-                    "2": "MdLF"
-                },
-                "descriptions": {
-                    "1": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=One%20of%20the%20long%20association%20pathways%2C%20namely%20the%20middle,respectively%20(Seltzer%20and%20Pandya%201984%3B%20Schmahmann%20et%20al.%202007).",
-                    "2": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=Our%20results%20reveal%20that%20there%20is%20a%20fiber%20pathway%20within%20the%20core%20of%20the%20white%20matter%20of%20the%20STG%20equivalent%20to%20that%20of%20MdLF%20in%20monkeys.%20It%20is%20further%20shown%20that%20MdLF%20is%20quite%20distinct%20from%20other%20adjoining%20pathways%20such%20as%20the%20AF%20and%20the%20SLF.",
-                    "3": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=To%20determine%20whether,STG%20(Fig.%201).",
-                    "4": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=The%20capability%20to,the%20present%20results.",
-                    "5": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=In%20the%20present%20study%2C%20first,MdLF%20(Figs%201%2C%202%2C%203).",
-                    "6": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=As%20shown%20in%20Figure%204,the%20angular%20gyrus%20(BA%2039).",
-                    "7": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=We%20also%20derived%20measurements%20of%20the%20volumes%20and,84%25%20and%20intrarater%20reliability%20was%2086%25%20for%20overlap.",
-                    "8": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=With%20this%20being,tractography%20(Fig.%208A).",
-                    "9": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=It%20is%20worth%20noting%20that%20whereas%20in%20the%20dominant%20hemisphere%20the%20role%20of%20the%20MdLF%20may%20be%20related%20to%20language%20function%2C%20in%20the%20nondominant%20hemisphere%20the%20MdLF%20may%20have%20a%20role%20in%20attentional%20processing.",
-                    "10": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=The%20FA%20values,0.38%20to%200.59.",
-                    "11": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=Although%20the%20MdLF,than%20the%20MdLF.",
-                    "12": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=The%20stem%20of%20the%20MdLF%20showed,to%20language%20function%20for%20the%20MdLF."
-                },
-                "figures": {
-                    "1": "https://academic.oup.com/view-large/figure/3464135/cercorbhn124f01_4c.jpeg",
-                    "2": "https://academic.oup.com/view-large/figure/3464138/cercorbhn124f02_4c.jpeg",
-                    "3": "https://academic.oup.com/view-large/figure/3464139/cercorbhn124f03_4c.jpeg",
-                    "4": "https://academic.oup.com/view-large/figure/3464142/cercorbhn124f04_4c.jpeg",
-                    "5": "https://academic.oup.com/view-large/figure/3464149/cercorbhn124f05_4c.jpeg",
-                    "6": "https://academic.oup.com/view-large/figure/3464152/cercorbhn124f06_4c.jpeg",
-                    "7": "https://academic.oup.com/view-large/figure/3464156/cercorbhn124f07_4c.jpeg",
-                    "8": "https://academic.oup.com/view-large/figure/3464177/cercorbhn124f08_4c.jpeg"
-                }
-            },
             "tract2": {
-                "tractTermsUsed": {
-                    "1": "superior longitudinal fascicle",
-                    "2": "SLF"
-                },
-                "descriptions": {
-                    "1": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=As%20shown%20in%20Figure%204,the%20angular%20gyrus%20(BA%2039).",
-                    "2": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=In%20previous%20studies%20of%20the%20cingulum%20bundle%20and%20the%20SLF%20we%20have%20shown%20that%20FA%20values%20of%20the%20CB%20ranged%20from%200.45%20to%200.54%20(Makris%2C%20Pandya%2C%20et%20al.%202002)%2C%20the%20overall%20FA%20for%20the%20SLF%20(all%204%20subcomponents%20combined)%20was%200.44%2C%20and%20that%20SLF%20I%20in%20particular%20showed%20FA%20of%200.36%20to%200.37%20(Makris%20et%20al.%202005).",
-                    "3": "https://academic.oup.com/cercor/article/19/4/777/279834#:~:text=Although%20the%20MdLF,than%20the%20MdLF."
-                },
-                "figures": {
-                    "1": "https://academic.oup.com/view-large/figure/3464152/cercorbhn124f06_4c.jpeg",
-                    "2": "https://academic.oup.com/view-large/figure/3464156/cercorbhn124f07_4c.jpeg",
-                    "3": "https://academic.oup.com/view-large/figure/3464177/cercorbhn124f08_4c.jpeg"
-                }
-            },
-            "tract2.xslx": {
                 "tractTermsUsed": {
                     "1": "superior longitudinal fascicle",
                     "2": "SLF"
@@ -1757,6 +1772,7 @@
         ],
         "publisher": "Oxford University Press (OUP)",
         "license": "unknown",
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {},
@@ -1804,6 +1820,7 @@
         ],
         "publisher": "Oxford University Press (OUP)",
         "license": "unknown",
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -1918,6 +1935,17 @@
         ],
         "publisher": "Frontiers Media SA",
         "license": "unknown",
+        "PMDinfo": {
+            "pmcid": "PMC5348491",
+            "pmid": "28352217",
+            "doi": "10.3389/fnana.2017.00016",
+            "versions": [
+                {
+                    "pmcid": "PMC5348491.1",
+                    "current": "true"
+                }
+            ]
+        },
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -2169,6 +2197,7 @@
         ],
         "publisher": "Oxford University Press (OUP)",
         "license": "unknown",
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {
@@ -2297,6 +2326,7 @@
                 "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
             }
         ],
+        "PMDinfo": "error",
         "tractDepictions": {
             "tract1": {
                 "tractTermsUsed": {

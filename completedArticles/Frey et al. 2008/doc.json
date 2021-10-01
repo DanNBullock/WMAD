@@ -54,6 +54,17 @@
     ],
     "publisher": "Society for Neuroscience",
     "license": "unknown",
+    "PMDinfo": {
+        "pmcid": "PMC6671318",
+        "pmid": "18987180",
+        "doi": "10.1523/JNEUROSCI.2388-08.2008",
+        "versions": [
+            {
+                "pmcid": "PMC6671318.1",
+                "current": "true"
+            }
+        ]
+    },
     "tractDepictions": {
         "tract1": {
             "tractTermsUsed": {

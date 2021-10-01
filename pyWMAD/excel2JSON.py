@@ -133,5 +133,24 @@ def createOmibusJSON():
     text_file = open(os.path.join('dbStore','WMAnatDB.json'), "w")
     text_file.write(WMAnatDBJSON)
     text_file.close()
+
+def convertDOI2pubMed(doi):
+    #my email adress
+    danEmail='bullo092@umn.edu'
+    #the name of our tool here
+    toolID='WMAD'
+    #the URL stem to the idConverter service
+    convertStem='https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/'
+    #the composition of the query itself
+    queryString='?tool='+toolID+'&email='+danEmail+'&ids='+doi
+    #the full url
+    fullURL=convertStem+queryString
+    import requests
     
     
+    ?tool=my_tool&email=my_email@example.com&ids=23193287
+from bs4 import BeautifulSoup
+import requests
+import re 
+
+testDoi='10.1007/s00429-019-01907-8'   
