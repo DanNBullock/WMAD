@@ -7,3 +7,4 @@ habanero
 notebook
 qgrid
 jupyter_contrib_nbextensions
+jupyterlab==3.1.13

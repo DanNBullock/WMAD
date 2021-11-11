@@ -3,7 +3,7 @@
         "1": "Elena Hayday"
     },
     "doi": {
-        "1": "doi.org/10.1093/cercor/bhh186"
+        "1": "10.1093/cercor/bhh186"
     },
     "species": {
         "1": "Humans"
@@ -73,6 +73,7 @@
     ],
     "publisher": "Oxford University Press (OUP)",
     "license": "unknown",
+    "PMDinfo": "error",
     "tractDepictions": {
         "tract1": {
             "tractTermsUsed": {
