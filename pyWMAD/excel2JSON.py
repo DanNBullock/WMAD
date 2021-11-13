@@ -31,7 +31,9 @@ def excelDoc2JSON(docExcelPath):
             if pandas.isnull(initialDict[k][j]):
                 del initialDict[k][j]
                 
-    #use doi to get metadata
+    #use doi to get metadata from crossref
+    #for the record, it doesn't seem to care if you supply it with the direct doi
+    # or if the doi is prepended by 'https://doi.org/'
     cr = Crossref()
     cr.works()
     crossRefQueryOut=cr.works(ids = currentDOI)
@@ -46,7 +48,15 @@ def excelDoc2JSON(docExcelPath):
             subsetDict[iSoughtEntries]=crossRefMetaData[iSoughtEntries]
         else:
             subsetDict[iSoughtEntries]='unknown'
-    
+            
+    #now do a pubmed query
+    pubMedResponse=convertDOI2pubMed(currentDOI)
+    #add relevant fields to the subsetDict
+    subsetDict['pmcid']=pubMedResponse['pmcid']
+    subsetDict['pmid']=pubMedResponse['pmid']
+    #also, clean up the doi field in case it has been entered weird
+    if not pubMedResponse['doi']==None:
+        initialDict['doi']=pubMedResponse['doi']
     #update the initial dict with the new data
     initialDict.update(subsetDict)
     
@@ -120,7 +130,7 @@ def createOmibusJSON():
         with open(iArticleJSONs) as json_data:
             currentArticleData = json.load(json_data)
         #get doi in order to create viable dict entry listings
-        currentDOi=currentArticleData['doi']['1']
+        currentDOi=currentArticleData['doi']
         #replace slashes with underscores
         recordTitle=currentDOi.replace('/','_')
         #replace slashes with underscores
@@ -133,8 +143,73 @@ def createOmibusJSON():
     text_file = open(os.path.join('dbStore','WMAnatDB.json'), "w")
     text_file.write(WMAnatDBJSON)
     text_file.close()
+    
+def processAllDocDirs(completedArticlesPath):
+    """
+    Yes, its a wrapper around a wrapper
+
+    Parameters
+    ----------
+    completedArticlesPath : TYPE
+        DESCRIPTION.
+
+    Returns
+    -------
+    None.
+
+    """
+    import json
+    import pandas
+    import os
+    dirContents=os.listdir(completedArticlesPath)
+    #iterate across the directories and make 
+    for iDirectories in dirContents:
+        print(iDirectories)
+        fullPath=os.path.join(completedArticlesPath,iDirectories)
+        processDocDir(fullPath)
+    
+    [containingDir,completedArticles]=os.path.split(completedArticlesPath)
+    os.chdir(containingDir)
+    
+    createOmibusJSON()
+    #done
+    
+    
+#For testing
+#doi='10.3389/fnana.2016.00040'        
+#bullock paper DOI, doesn't work
+#doi='10.1007/s00429-019-01907-8'
+#Heilbronner paper DOI, does work 
+#doi='https://doi.org/10.1038/s41467-019-13135-z'
 
 def convertDOI2pubMed(doi):
+    """
+    queries the pub med database in order to obtain the pubmed record associated
+    with the doi.  In the (quite likely) case that no corresponding record is found
+    reports accordingly.
+    
+    Parameters
+    ----------
+    doi : string
+        a string instance of the doi.  
+        Note: theoretically you could also input the pmcid or pmid here as well
+        and it should work just the same
+
+    Returns
+    -------
+    pubmedID:
+
+    """
+    import requests
+    import re
+    import json
+    import xmltodict
+    
+    #remove 'https://doi.org/' here because the pub med API *really* doesn't like it
+    doi=doi.replace('https://doi.org/','')
+    #or if the https has been removed
+    doi=doi.replace('doi.org/','')   
+    
     #my email adress
     danEmail='bullo092@umn.edu'
     #the name of our tool here
@@ -145,12 +220,38 @@ def convertDOI2pubMed(doi):
     queryString='?tool='+toolID+'&email='+danEmail+'&ids='+doi
     #the full url
     fullURL=convertStem+queryString
-    import requests
+    #use requests to get the output from the query
+    response = requests.get(fullURL)
+    #convert it to a much nicer format
+    jsonPort=xmltodict.parse(response.text)
+    #begin construction of the out dictionary
+    outDict={}
+    #the pmid tool can recognize that it is a vaild doi, but still fail to return arecord
+    if jsonPort['pmcids']['@status']=='ok': 
+        #record.@status doesn't exist when it succeds
+        if not '@status' in list(jsonPort['pmcids']['record'].keys()):
+            outDict['doi']=jsonPort['pmcids']['record']['@doi']
+            outDict['pmcid']=jsonPort['pmcids']['record']['@pmcid']
+            outDict['pmid']=jsonPort['pmcids']['record']['@pmid']
+            outDict['requested-id']=jsonPort['pmcids']['record']['@requested-id']
+        else:
+            print('error obtaining pub med records for ' + doi)
+            #maybe consider placing a direct report from pub med here. e.g.:
+            print('resource response: \n' + jsonPort['pmcids']['record']['errmsg'])
+            outDict['doi']=jsonPort['pmcids']['record']['@doi']
+            outDict['pmcid']=None
+            outDict['pmid']=None
+            outDict['requested-id']=jsonPort['pmcids']['record']['@requested-id']
+    #however, if it is not a valid record
+    else:
+        print('pubmed idconv did not recognize doi ' + doi)
+        outDict['doi']=None
+        outDict['pmcid']=None
+        outDict['pmid']=None
+        outDict['requested-id']=doi  
+    return outDict
     
-    
-    ?tool=my_tool&email=my_email@example.com&ids=23193287
-from bs4 import BeautifulSoup
-import requests
-import re 
+            
+        
 
-testDoi='10.1007/s00429-019-01907-8'   
+    
