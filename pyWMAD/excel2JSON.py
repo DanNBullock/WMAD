@@ -188,6 +188,8 @@ def convertDOI2pubMed(doi):
     with the doi.  In the (quite likely) case that no corresponding record is found
     reports accordingly.
     
+    This should probably go in scrape
+    
     Parameters
     ----------
     doi : string

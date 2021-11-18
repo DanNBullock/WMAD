@@ -24,7 +24,7 @@ def decodeGoogleHighlight(inputURL):
     return(regexComponents)
 
 
-def parseAllQueries(WMAnatDB,textQueriesList,forceProduce=False):
+def parseAllTextQueries(WMAnatDB,textQueriesList,forceProduce=False):
     """
     
 
@@ -50,6 +50,8 @@ def parseAllQueries(WMAnatDB,textQueriesList,forceProduce=False):
     import re
     import numpy as np
     from urllib.parse import unquote
+    import xmltodict
+    import itertools
     
     queriesStemList=[]
     queriesCleaned=[]
@@ -81,7 +83,14 @@ def parseAllQueries(WMAnatDB,textQueriesList,forceProduce=False):
         queriesCleaned.append(regexComponents)
     
     #find the unique articles
-    uniqueArticleURLs=np.unique(queriesStemList)
+    u, ind=np.unique(queriesStemList, return_index=True)
+    uniqueArticleURLs= u[np.argsort(ind)]
+   
+    #create a mapping to these unique entries from the queries, as proxied by 
+    #the entries in queriesStemList
+    query_PageCorrespondances=np.zeros(len(queriesStemList)).astype(int)
+    for iQueries in range(len(textQueriesList)):
+        query_PageCorrespondances[iQueries]=np.where([queriesStemList[iQueries]==iUniquePages for  iUniquePages in uniqueArticleURLs])[0][0]
     
     #generate the url correspondances of the dois
     doi_url_correspondance=pd.DataFrame(columns=['doi', 'url'] )
@@ -127,56 +136,166 @@ def parseAllQueries(WMAnatDB,textQueriesList,forceProduce=False):
         
     #setting some things in case we use the pmc database
     #set my email
-    danEmail='bullo092@umn.edu'
+    #danEmail='bullo092@umn.edu'
     #the name of our tool here
-    toolID='WMAD'
+    #toolID='WMAD'
     #the URL stem to the idConverter service
     efetchStemQuery='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id='
     #the composition of the query itself
-    queryString='?tool='+toolID+'&email='+danEmail+'&ids='+doi
-    
+    #queryString='?tool='+toolID+'&email='+danEmail+'&ids='+doi
+    #set the string that we'll search for to see if we've been fooled by pmc
+    pmcPublisherXMLForbidString='The publisher of this article does not allow downloading of the full text in XML form.'
     #begin cycling through the articles
-    # we do it one at the time so as to not anger the journals    
+    # we do it one at the time so as to not anger the journals
+    returnedTextExerpts=[None]*len(queriesCleaned )
     for iQueryArticles in range(len(uniqueArticleURLs)):
         #get the url
-        currentArticleUrl=uniqueArticleURLs[iQueryArticles]
+        #currentArticleUrl=uniqueArticleURLs[iQueryArticles]
+        #
+        #get the queries
+        #I don't know why I have to do it this way, it was getting angry about 
+        #"only integer scalar arrays can be converted to a scalar index" otherwie
+        #currentQueries=[queriesCleaned[iQuery] for iQuery in range(queriesCleaned) if query_PageCorrespondances[iQuery]==iQueryArticles]
+        #ok we'll do it the hard way
+        currentQueries=[]
+        for iQuery in range(len(queriesCleaned)):
+            if query_PageCorrespondances[iQuery]==iQueryArticles:
+                currentQueries.append(queriesCleaned[iQuery])
+        queryIndexes= list(np.where(query_PageCorrespondances==iQueryArticles)[0])
         #if it is available in pub med database get it from there
         if not pmcID[iQueryArticles]==None:
-            #efetch stem
-            
+            #query the PMC database to get the article (hopefully)
             page = requests.get(efetchStemQuery+pmcID[iQueryArticles])
             
-        elif forceProduce:
-
-            #use requests go get the article data
-            page = requests.get(iQueryArticles)
-            #status code 200 == ok
+            #if the querry as succesful
             if page.status_code==200:
-                queryLocations=np.where( [iQueryArticles in iQueryStems for iQueryStems in queriesStemList])[0]
-            #status code 403 == forbidden
-            elif page.status_code==403:
-                CLEANR = re.compile('<.*?>') 
-        
-                def cleanhtml(raw_html):
-                  cleantext = re.sub(CLEANR, '', raw_html)
-                  return cleantext
-                        #status code 200 == ok
-        
-            #in the case that you're not forcing it, and it isn't in the pub med database
-    else:
-        #you'll be setting an output to say something like
-        outString='article not available in pub med open data base \n set "forceProduce" option to True to force direct query of journal'
-        
-        
-# as per recommendation from @freylis, compile once only
+                #check to see if the article is ACTUALLY there.  Very silly.  Why have it
+                #in the database as an entry if it's not actually there,
+                #just leave it as a standard PMD entry.  /{rant_over}
+                pageContent=page.content.decode(page.encoding)
+                #check to see if we've been tricked
+                if pmcPublisherXMLForbidString in pageContent:
+                    #we've been tricked!  Fill in the entries with the relevant boilerplate text
+                    #I guess just use the sum as an iterator
+                    for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                        returnedTextExerpts[queryIndexes[iQueries]]=pmcPublisherXMLForbidString
+                else:
+                    #iterate across the queries and use regex to find the sections
+                    for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                        returnedTextExerpts[queryIndexes[iQueries]]=parseTextQueryFromRawText(page.content,currentQueries[iQueries])
+            #in case something gose extra wrong        
+            else:
+                for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                    returnedTextExerpts[queryIndexes[iQueries]]='Pub Med querry failed'
+                
+        #if it isnt there OR IF it came back with the XML forbidden response
+        if forceProduce:
+            #do a check to see the entries for this index have already been added by the pub med section
+            #and if they are the XML forbidden status
+            #PMC_Check=len(returnedTextExerpts)==np.sum(query_PageCorrespondances>=iQueryArticles)
+            PMC_XML_forbiddenFlag=np.any([ pmcPublisherXMLForbidString==iReturnedExerpts for iReturnedExerpts in list(itertools.compress(returnedTextExerpts, list(query_PageCorrespondances==iQueryArticles)))])
+            if PMC_XML_forbiddenFlag:
+                #locations to replace
+                locationsToReplace=np.where(query_PageCorrespondances==iQueryArticles)[0]
+                #use requests go get the article data
+                page = requests.get(uniqueArticleURLs[iQueryArticles])
+                #status code 200 == ok
+                if page.status_code==200:
+                    #iterate across the current quries
+                    for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                        returnedTextExerpts[locationsToReplace[iQueries]]=parseTextQueryFromRawText(page.content,currentQueries[iQueries])
+                    #status code 403 == forbidden
+                elif page.status_code==403:
+                    for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                        #here we might want to say that neither the PMC method nor the ping method worked
+                        returnedTextExerpts[locationsToReplace[iQueries]]='PMC XML Forbidden and journal 403 forbidden'
+                        #or maybe instead use the xml decode functionality of xmltodict
+                        #errorResponse=xmltodict.parse(page.content)
+                        #returnedTextExerpts[locationsToReplace[iQueries]]=errorResponse['html']['body']['#text']
+                        #returnedTextExerpts.append(page.reason)
+                elif page.status_code==503:
+                     for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                         #or maybe instead use the xml decode functionality of xmltodict
+                         #errorResponse=xmltodict.parse(page.reason)
+                         #returnedTextExerpts.append(errorResponse['html']['body']['#text'])
+                         returnedTextExerpts[queryIndexes[iQueries]]=page.reason
+                        
+            #in the normal case when there is no pub med entry and forceProduce is true
+            else:
+                #use requests go get the article data
+                page = requests.get(uniqueArticleURLs[iQueryArticles])
+                #status code 200 == ok
+                if page.status_code==200:
+                    #iterate across the current quries
+                    for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                        returnedTextExerpts[queryIndexes[iQueries]]=parseTextQueryFromRawText(page.content,currentQueries[iQueries])
+                    #status code 403 == forbidden
+                elif page.status_code==403:
+                    for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                        #or maybe instead use the xml decode functionality of xmltodict
+                        #errorResponse=xmltodict.parse(page.reason)
+                        #returnedTextExerpts.append(errorResponse['html']['body']['#text'])
+                        returnedTextExerpts[queryIndexes[iQueries]]=page.reason
+                elif page.status_code==503:
+                     for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                         #or maybe instead use the xml decode functionality of xmltodict
+                         #errorResponse=xmltodict.parse(page.reason)
+                         #returnedTextExerpts.append(errorResponse['html']['body']['#text'])
+                         returnedTextExerpts[queryIndexes[iQueries]]=page.reason
+        #in the case that you're not forcing it, and it isn't in the pub med database
+        #you're not getting anything
+        else:
+            #you'll be setting an output to say something like
+            outString='article not available in pub med open data base \n set "forceProduce" option to True to force direct query of journal \n WARNING: This may result in the journal limiting access to you specifically or others more generally'
+            for iQueries in range(np.sum(query_PageCorrespondances==iQueryArticles)):
+                returnedTextExerpts[queryIndexes[iQueries]]=outString
+                
+    return returnedTextExerpts
 
         
         
     
+def parseTextQueryFromRawText(sourceText,regexComponents):
+    """
+    
+
+    Parameters
+    ----------
+    sourceText : TYPE
+        DESCRIPTION.
+
+    Returns
+    -------
+    None.
+
+    """
+    from bs4 import BeautifulSoup
+    import re
 
     
-with open('/media/dan/storage/gitDir/WMAD/dbStore/WMAnatDB.json') as json_data:
-    WMAnatDB = json.load(json_data)
+    
+    if type(regexComponents)==list:
+        #get the soup output
+        soup = BeautifulSoup(sourceText, "html.parser")
+        #interpret it ina comprehensible fashion
+        articleText = ''.join(soup.findAll(text=True))
+        #create a regex search string for the bounds and whatis between them
+        searchFormation=re.escape(regexComponents[0])+'.+?'+re.escape(regexComponents[1])
+        #compile the search string
+        prog = re.compile(searchFormation)
+        #perform the search and extract the match result; could possibly be empty
+        if prog.search(articleText) is None:
+            regexResult ='Regex search failed to return match;\nPossible redirect issue, check host publisher\'s website'
+        else:
+            regexResult = prog.search(articleText).group(0)
+    elif type(regexComponents)==str:
+        #if it's only one item long, its simply a text string, ...
+        #no comma separating it, not to be interpreted as bounds
+        regexResult=regexComponents
+    return regexResult
+    
+#with open('/media/dan/storage/gitDir/WMAD/dbStore/WMAnatDB.json') as json_data:
+#    WMAnatDB = json.load(json_data)
 def extractGoogleHighlightLinkText(inputURL):
     from bs4 import BeautifulSoup
     import requests
@@ -219,4 +338,7 @@ def queryImage(imageURL):
     elif returnedImg.status_code == 403:
         imgOut=None
         print('403 request error: forbidden by host')
+    else:
+        imgOut=None
+        print(str(returnedImg.status_code )+' request error')
     return imgOut
